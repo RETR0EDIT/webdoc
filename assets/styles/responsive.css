@@ -1,0 +1,174 @@
+@media (max-width: 1600px) {
+  .section_carte {
+    width: 768px;
+    height: 600px;
+  }
+
+  .img_container {
+    width: 768px;
+    height: 600px;
+  }
+
+  .carte {
+    width: 768px;
+  }
+
+  #scene {
+    top: 150px;
+  }
+
+  .popup_scene {
+    top: 200px;
+    left: 35px;
+    width: 300px;
+  }
+
+  #lichete {
+    left: -14%;
+    top: 360px;
+  }
+
+  .popup_lichete {
+    top: 200px;
+    left: 100px;
+    width: 300px;
+  }
+
+  #place_principal {
+    left: -10%;
+    top: 155px;
+  }
+
+  .popup_place_principal {
+    top: 200px;
+    left: 160px;
+    width: 300px;
+  }
+
+  #musee {
+    left: -34%;
+    top: 110px;
+  }
+
+  .popup_musee {
+    top: 160px;
+    left: 0px;
+    width: 300px;
+  }
+
+  #concours {
+    top: 80px;
+  }
+
+  .popup_concours {
+    top: 115px;
+    left: 165px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .instal_img1 {
+    width: 100%;
+  }
+  .instal_img2 {
+    width: 100%;
+  }
+  .instal_txt {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 930px) {
+  .resumer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .resumer div{
+    width: 100%;
+  }
+
+  #resume_evenement{
+    width: 100%;
+  }
+
+  .image_1{
+    width: 100%;
+    margin: 0 10px 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .section_carte {
+    width: 480px;
+    height: 400px;
+  }
+
+  .img_container {
+    width: 480px;
+    height: 400px;
+  }
+
+  .carte {
+    width: 480px;
+  }
+
+  #scene {
+    top: 110px;
+  }
+  .popup {
+    width: 200px;
+  }
+
+  .popup_scene {
+    top: 140px;
+    left: 15px;
+  }
+
+  #lichete {
+    top: 240px;
+  }
+
+  .popup_lichete {
+    top: 132px;
+    left: 210px;
+  }
+
+  #place_principal {
+    top: 115px;
+  }
+
+  .popup_place_principal {
+    top: 145px;
+    left: 95px;
+  }
+
+  #musee {
+    top: 85px;
+  }
+
+  .popup_musee {
+    top: 110px;
+    left: 0px;
+  }
+
+  #concours {
+    top: 65px;
+  }
+
+  .popup_concours {
+    top: 95px;
+    left: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resumer div {
+    width: 100%;
+  }
+
+  .image_1 {
+    width: 100%;
+  }
+}

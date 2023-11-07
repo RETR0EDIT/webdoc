@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="switch-container">
+        <label class="switch-label">
+            <input type="checkbox" class="switch-input" id="darkModeToggle">
+            <div class="switch-slider"></div>
+        </label>
+    </div>
+    <div class="container-main">
+        <div id="text">
+            <h1>HOTEL EN FRANCE</h1>
+            <p>Indiquez vos dates de réservation. <br>
+                Toute annulation doit se faire 48 h avant</p>
+        </div>
+
+        <div id="container-table" class="">
+            <div class="">
+                <div class="cell w-50 m-1"> Dormir </div>
+                <div class="cell w-50 m-1 "> France</div>
+            </div>
+            <div class="">
+                <div class="cell w-50 m-1 "><input type="date" name="debut" id="" class="input_date"></div>
+                <div class="cell w-50 m-1 "><input type="date" name="fin" id="" class="input_date"></div>
+            </div>
+            <div class="">
+                <div class="cell w-50 m-1"> <label for="adutle" class="label_input">Adulte(s)</label> <input type="number"
+                        name="adulteI" id="" class="input_num" value="0" readonly>
+                </div>
+                <div class="cell w-50 m-1">
+                    <div><button onclick="plus('adulteI')" class="plus" class="plus">+</button></div>
+                    <div> <button onclick="moin('adulteI')" class="moins">-</button></div>
+                </div>
+            </div>
+            <div class="">
+                <div class="cell w-50 m-1"> <label for="adutle" class="label_input">Enfant(s)</label> <input type="number"
+                        name="enfantI" class="input_num" value="0" readonly>
+                </div>
+                <div class="cell w-50 m-1">
+                    <div><button onclick="plus('enfantI'), addChild()" class="plus">+</button></div>
+                    <div> <button onclick="moin('enfantI'),suprChild()" class="moins">-</button></div>
+                </div>
+            </div>
+            <div class="">
+                <div class="cell w-50 m-1"> <label for="adutle" class="label_input">Chambre(s)</label> <input type="number"
+                        name="chambreI" id="Chambre" class="input_num" value="0" readonly>
+                </div>
+                <div class="cell w-50 m-1">
+                    <div class="div_plus"><button onclick="plus('chambreI')" class="plus" class="plus">+</button></div>
+                    <div> <button onclick="moin('chambreI')" class="moins" class="moins">-</button></div>
+                </div>
+            </div>
+
+            <div>
+                <button onclick="checkEr()" id="Rechercher">
+                    <h2>Rechercher</h2>
+                </button>
+
+            </div>
+            <div class="travail display-f"><input type="checkbox" name="travail" id="checkbox" class="m-1"> <label for="">Je
+                    voyage pour le travail</label> </div>
+
+        </div>
+        <div class="container-resul">
+        <div id="container-child"></div>
+
+        <div id="errorDate" style="color: red;"></div>
+        <div id="errorPpl" style="color: red;"></div>
+        <div id="errorAge" style="color: red;"></div>
+        <div id="errorRoom" style="color: red;"></div>
+
+            <div id="resume"></div>
+            <div id="travail"></div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>

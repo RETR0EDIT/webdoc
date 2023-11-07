@@ -1,0 +1,225 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container-table div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.travail {
+    margin: 5px;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.cell {
+
+    border: 1px solid;
+    height: 25px;
+}
+
+#Rechercher {
+    color: white;
+    animation: gradient-animation 5s ease infinite;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    background: linear-gradient(334deg, #ff0000, #c6c8cc, #ff0000);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.container-main {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+}
+
+#text {
+    text-align: center;
+}
+
+.input_num {
+    width: 30px;
+    border: none;
+    text-align: center;
+    outline: none;
+    background: none !important;
+}
+
+.input_date {
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: center;
+    background: none;
+}
+
+
+.plus {
+    height: 23px;
+    margin: auto;
+    padding-top: 0px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    width: 23px;
+
+}
+
+.plus:hover {
+    transition: all ease 0.5s;
+    background-color: rgba(63, 64, 66, 0.63);
+    border: none;
+    border-radius: 100px;
+    color: white;
+}
+
+.moins {
+    height: 23px;
+    margin: auto;
+    padding-top: 0px;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    width: 23px;
+}
+
+.moins:hover {
+    transition: all ease 0.5s;
+    background-color: rgba(70, 73, 73, 0.63);
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+#container-child {
+border-bottom: 1px solid;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#container-child div {
+    margin: 4px 0px;
+}
+
+.label_input {
+    width: 63px;
+
+}
+
+
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.switch-container {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-label {
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.switch-slider {
+    border: 0.3px solid #333;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.switch-input:checked+.switch-label .switch-slider {
+    transform: translateX(30px);
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.sombre {
+    text-align: center;
+}
+
+.dark-mode {
+    transition: background-color 0.3s, color 0.3s;
+    background: none;
+    color: #fff;
+}
+
+
+
+.container-resul{
+
+    margin: 10px;
+}
