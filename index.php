@@ -272,5 +272,6 @@
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/translate.js"></script>
     <script src="assets/js/fade-up.js"></script>
+    <template></template>
   </body>
 </html>
