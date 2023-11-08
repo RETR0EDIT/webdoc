@@ -145,7 +145,37 @@ body.dark-mode {
 }
 
 .dark-mode {
-  transition: background-color 0.3s, color 0.3s all ease;
+  transition: background-color 0.3s, color 0.3s;
   background: none;
   color: #fff;
+}
+
+.img_dark {
+  position: absolute;
+  top: 5px;
+  left: 185px;
+  height: 40px;
+}
+
+#soleil,
+#nuit {
+  display: none; /* Masquer les images par défaut */
+}
+
+.dark-mode #nuit {
+  position: absolute;
+  filter: invert(100%);
+  top: -6px;
+  left: -6px;
+  display: block; /* Afficher l'image "nuit" en mode sombre */
+}
+
+.dark-mode #soleil {
+  display: none; /* Masquer l'image "soleil" en mode sombre */
+}
+
+#soleil {
+  display: block;
+
+  position: absolute;
 }
