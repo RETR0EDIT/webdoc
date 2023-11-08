@@ -64,6 +64,7 @@
   width: 1850px;
   height: 1200px;
   align-items: center;
+  margin: auto;
 }
 
 .position {
@@ -237,4 +238,14 @@ video {
 
 .hidden {
   display: none;
+}
+
+.fade-up-element {
+  opacity: 0; /* L'élément est initialement invisible */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-up-visible {
+  opacity: 1; /* L'élément devient visible */
+  transform: translateY(0); /* Déplacement nul (position initiale) */
 }

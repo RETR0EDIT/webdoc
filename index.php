@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  
     <title>Document</title>
   </head>
   <body class="">
@@ -17,9 +17,9 @@
         <video src="" class="video1"></video>
       </div>
       <section id="partie_1">
-        <div class="resumer">
+        <div class="resumer fade-up-element">
           <div class="resumer_txt">
-            <h2 class="translation" data-lang="fr">Résumer Évènement</h2>
+            <h2 class="translation " data-lang="fr">Résumer Évènement</h2>
             <!-- anglais -->
             <h2 class="translation hidden" data-lang="en">Event summary</h2>
 
@@ -62,19 +62,20 @@
         </div>
       </section>
 
-      <div class="trait"></div>
+      <div class="trait fade-up-element"></div>
 
       <section id="partie2">
-        <h3 class="h3_section_2 translation" data-lang="fr">
+        <div class="fade-up-element">
+        <h3 class="h3_section_2 translation fade-up-element" data-lang="fr">
           Antoine Imbault : Organisateur de l’évènement
         </h3>
         <!-- anglais -->
-        <h3 class="h3_section_2 translation hidden" data-lang="en">
+        <h3 class="h3_section_2 translation hidden fade-up-element" data-lang="en">
           Antoine Imbault: Event organizer
         </h3>
-        <div class="centre"><video src=""></video></div>
+        <div class="centre fade-up-element"><video src=""></video></div>
 
-        <div>
+        <div class="fade-up-element">
           <h2 class="h2_section_2 translation" data-lang="fr">
             Texte/parole de la vidéo
           </h2>
@@ -97,8 +98,9 @@
             inserer text en anglais
           </p>
         </div>
-
-        <h3 class="h3_section_2 translation" data-lang="fr">
+        </div>
+        <div class="fade-up-element">
+        <h3 class="h3_section_2 translation " data-lang="fr">
           Jean-François COPÉ : Maire de la ville de Meaux
         </h3>
         <!-- anglais -->
@@ -130,16 +132,19 @@
             inserer texte en anglais
           </p>
         </div>
+        </div>
       </section>
 
-      <div class="trait"></div>
+      <div class="trait fade-up-element">
 
       <h2 class="h2_section_2 translation" data-lang="fr">Carte intéractive</h2>
       <!-- anglais -->
       <h2 class="h2_section_2 translation hidden" data-lang="en">
         Interactive map
       </h2>
+      </div>
       <section class="section_carte">
+      <div class="fade-up-element">
         <div class="img_container">
           <a href="scene.php" id="scene" class="position"
             ><img
@@ -258,6 +263,7 @@
 
           <img src="assets/img/page 1/carte.png" alt="carte" class="carte" />
         </div>
+        </div>
       </section>
 
       
@@ -265,5 +271,6 @@
     <?php include 'utile/footer.html'; ?>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/translate.js"></script>
+    <script src="assets/js/fade-up.js"></script>
   </body>
 </html>
