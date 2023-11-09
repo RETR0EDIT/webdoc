@@ -18,13 +18,17 @@ h3 {
   font-size: 25px;
 }
 
+p{
+  text-align: justify;
+}
+
 .mere {
   width: 1075px;
   aspect-ratio: 1075 / 443;
   object-fit: cover;
   float: right;
   shape-outside: margin-box;
-  margin: 0 0 5px 20px;
+  margin: 0 0 20px 40px;
 }
 
 .instal_txt {
@@ -41,8 +45,8 @@ h3 {
   margin: 0 20px 5px 0;
 }
 .container {
-  margin: 50px 30px 50px 30px;
-  padding: 20px 0 20px 0;
+  margin: 80px;
+  padding: 20px 10px 20px 10px;
 }
 
 video {

@@ -14,7 +14,9 @@
       <h1 id="titre">BRIE HAPPY</h1>
       <h2 id="date">2023</h2>
       <div class="centre">
-        <video src="" class="video1"></video>
+      <video id="background-video" autoplay loop muted>
+        <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
+      </video>
       </div>
       <section id="partie_1">
         <div class="resumer fade-up-element">
