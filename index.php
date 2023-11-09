@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <title>Document</title>
   </head>
@@ -25,8 +25,9 @@
             <!-- anglais -->
             <h2 class="translation hidden" data-lang="en">Event summary</h2>
 
-            <br /><br />
-            <p class="texte translation" id="resume_evenement" data-lang="fr">
+            <br>
+            <br>
+            <p class="texte translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and
               typesettingindustry. Lorem Ipsum has been the industry's standard
               dummy textever since the 1500s, when an unknown printer took a
@@ -39,20 +40,15 @@
               Ipsum.
             </p>
             <!-- anglais -->
-            <p
-              class="texte translation hidden"
-              id="resume_evenement"
-              data-lang="en"
-            >
+            <p class="texte translation hidden" data-lang="en">
               inserer texte en anglais
             </p>
           </div>
           <div>
-            <img
-              src="assets/img/page 1/image_1.png"
+            <img src="assets/img/page_1/image_1.png"
               alt="image_1"
               class="image_1"
-            />
+            >
             <p class="description translation" data-lang="fr">
               Description photo
             </p>
@@ -149,17 +145,10 @@
       <div class="fade-up-element">
         <div class="img_container">
           <a href="scene.php" id="scene" class="position"
-            ><img
-              src="assets/img/page 1/position_1.png"
-              alt=""
-              class="img_position"
-          /></a>
+            ><img src="assets/img/page_1/position_1.png" alt="" class="img_position">
+          </a>
           <div id="popup_scene" class="popup_scene popup">
-            <img
-              src="assets/img/page 1/scene.png"
-              alt="scene"
-              class="popup-image_scene"
-            />
+            <img src="assets/img/page_1/scene.png" alt="scene" class="popup-image_scene" >
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -172,18 +161,12 @@
           </div>
 
           <a href="lichete.php" id="lichete" class="position"
-            ><img
-              src="assets/img/page 1/position_1.png"
-              alt=""
-              class="img_position"
-          /></a>
+            ><img src="assets/img/page_1/position_1.png" alt="" class="img_position"
+          ></a>
           <div id="popup_lichete" class="popup_lichete popup">
-            <img
-              src="assets/img/page 1/lichete.png"
-              alt="lichete"
-              class="popup-image_lichete"
-            />
-            <p class="translation" data-lang="fr" data-lang="fr">
+            <img src="assets/img/page_1/lichete.png" alt="lichete" class="popup-image_lichete"
+            >
+            <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s,
@@ -195,17 +178,11 @@
           </div>
 
           <a href="place_principal.php" id="place_principal" class="position"
-            ><img
-              src="assets/img/page 1/position_1.png"
-              alt=""
-              class="img_position"
-          /></a>
+            ><img src="assets/img/page_1/position_1.png" alt="" class="img_position"
+          ></a>
           <div id="popup_place_principal" class="popup_place_principal popup">
-            <img
-              src="assets/img/page 1/place-principal.png"
-              alt="place-principal"
-              class="popup-image_place_principal"
-            />
+            <img src="assets/img/page_1/place-principal.png" alt="place-principal" class="popup-image_place_principal"
+            >
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -218,17 +195,11 @@
           </div>
 
           <a href="musee.php" id="musee" class="position"
-            ><img
-              src="assets/img/page 1/position_2.png"
-              alt=""
-              class="img_position"
-          /></a>
+            ><img src="assets/img/page_1/position_2.png" alt="" class="img_position"
+          ></a>
           <div id="popup_musee" class="popup_musee popup">
-            <img
-              src="assets/img/page 1/musee.png"
-              alt="musee"
-              class="popup-image_musee"
-            />
+            <img src="assets/img/page_1/musee.png" alt="musee" class="popup-image_musee"
+            >
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -241,17 +212,11 @@
           </div>
 
           <a href="concours.php" id="concours" class="position"
-            ><img
-              src="assets/img/page 1/position_2.png"
-              alt=""
-              class="img_position"
-          /></a>
+            ><img src="assets/img/page_1/position_2.png" alt="" class="img_position"
+          ></a>
           <div id="popup_concours" class="popup_concours popup">
-            <img
-              src="assets/img/page 1/concours.png"
-              alt="concours"
-              class="popup-image_concours"
-            />
+            <img src="assets/img/page_1/concours.png" alt="concours" class="popup-image_concours"
+            >
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -263,7 +228,7 @@
             </p>
           </div>
 
-          <img src="assets/img/page 1/carte.png" alt="carte" class="carte" />
+          <img src="assets/img/page_1/carte.png" alt="carte" class="carte" >
         </div>
         </div>
       </section>
