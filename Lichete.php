@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
     <title>lichete</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
     <section id="instalation"></section>
     <div class="container">
       <h2>Instalation</h2>
-      <img src="assets/img/page 1/image_1.png" alt="" class="instal_img1" />
+      <img src="assets/img/page 1/image_1.png" alt="" class="mere" />
       <p class="instal_txt">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -53,8 +53,8 @@
 
     <img src="" alt="" width="80%" />
 
-    <footer></footer>
+    <?php include 'utile/footer.html' ?>
     <script src="assets/js/nav.js"></script>
-    <script src="assets/js/footer.js"></script>
+
   </body>
 </html>

@@ -68,11 +68,11 @@
 }
 
 @media (max-width: 1280px) {
-  .instal_img1 {
-    width: 100%;
+  .mere {
+    width: 100%!important;
   }
   .instal_img2 {
-    width: 100%;
+    width: 100%!important;
   }
   .instal_txt {
     padding: 0;
