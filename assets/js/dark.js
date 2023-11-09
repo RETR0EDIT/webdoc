@@ -19,6 +19,7 @@ function disableDarkMode() {
     input.classList.remove("dark-mode");
   });
   localStorage.setItem("darkMode", "disabled");
+  document.body.style.transition = "background-color 0.3s, color 0.3s";
 }
 
 const darkModeStatus = localStorage.getItem("darkMode");

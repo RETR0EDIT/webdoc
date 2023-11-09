@@ -8,7 +8,7 @@ function checkFadeUpElements() {
     if (elementRect.top < screenHeight) {
       setTimeout(() => {
         element.classList.add("fade-up-visible");
-      }, index * 75);
+      }, index * 30);
     } else {
       element.classList.remove("fade-up-visible");
     }

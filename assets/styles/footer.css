@@ -1,12 +1,11 @@
 footer {
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-color: #333;
 }
 footer .content {
   color: #fff;
@@ -79,4 +78,19 @@ footer .waves .wave__box--5 {
   100% {
     transform: translateX(-20%);
  }
+}
+.demi-cercle{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.svg{
+  height: 758px;
+  width: 100%;
+}
+
+.dark-mode footer .demi-cercle .svg{
+  background-color: #333;
+  color: #333;
 }

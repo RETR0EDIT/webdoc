@@ -11,9 +11,9 @@
       <header>
       <?php include 'utile/nav.html'; ?>
       </header>
-      <h1 class="titre">BRIE HAPPY</h1>
-      <h2 id="date">2023</h2>
-      <div class="centre">
+      <h1 class="titre fade-up-element">BRIE HAPPY</h1>
+      <h2 id="date" class="fade-up-element">2023</h2>
+      <div class="centre fade-up-element">
       <video id="background-video" autoplay loop muted>
         <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
       </video>
@@ -97,6 +97,11 @@
           </p>
         </div>
         </div>
+        <div class="trait fade-up-element"></div>
+        <section class="planning fade-up-element">
+          <h3 class="h3_section_2">Planning</h3>
+        </section>
+        <div class="trait fade-up-element"></div>
         <div class="fade-up-element">
         <h3 class="h3_section_2 translation " data-lang="fr">
           Jean-François COPÉ : Maire de la ville de Meaux
