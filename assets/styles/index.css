@@ -241,11 +241,15 @@ video {
 }
 
 .fade-up-element {
-  opacity: 0; /* L'élément est initialement invisible */
+  opacity: 0;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .fade-up-visible {
-  opacity: 1; /* L'élément devient visible */
-  transform: translateY(0); /* Déplacement nul (position initiale) */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.titre{
+  margin-top: 50px;
 }

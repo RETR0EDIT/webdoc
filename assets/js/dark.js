@@ -47,3 +47,18 @@ switchInput.addEventListener("change", () => {
     switchSlider.style.transform = "translateX(0)";
   }
 });
+
+
+let prevScrollPos = window.pageYOffset;
+
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+
+  if (prevScrollPos > currentScrollPos) {
+    document.querySelector(".navbar").style.top = "0";
+  } else {
+    document.querySelector(".navbar").style.top = "-80px";
+  }
+
+  prevScrollPos = currentScrollPos;
+}

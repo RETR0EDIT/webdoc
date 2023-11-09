@@ -159,7 +159,7 @@ body.dark-mode {
 
 #soleil,
 #nuit {
-  display: none; /* Masquer les images par défaut */
+  display: none;
 }
 
 .dark-mode #nuit {
@@ -167,15 +167,25 @@ body.dark-mode {
   filter: invert(100%);
   top: -6px;
   left: -6px;
-  display: block; /* Afficher l'image "nuit" en mode sombre */
+  display: block;
 }
 
 .dark-mode #soleil {
-  display: none; /* Masquer l'image "soleil" en mode sombre */
+  display: none;
 }
 
 #soleil {
   display: block;
 
   position: absolute;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  margin-bottom: 50px;
 }

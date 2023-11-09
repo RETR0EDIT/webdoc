@@ -4,11 +4,6 @@
   margin: 0;
   padding: 0;
 }
-h1 {
-  font-size: 75px;
-  text-align: center;
-}
-
 h2 {
   padding: 0 0 10px 20px;
   margin-bottom: 0px;
@@ -51,4 +46,10 @@ p{
 
 video {
   background-color: red;
+}
+
+.titre{
+  margin-top: 50px;
+  font-size: 75px;
+  text-align: center;
 }

@@ -8,14 +8,13 @@
   </head>
   <body>
     <?php include 'utile/nav.html'?>
-    <nav></nav>
-    <h1>Place principal</h1>
+    <h1 class="titre">Place principal</h1>
     <img src="" alt="" height="100%" />
     <section id="instalation"></section>
     <div class="container">
       <h2>Instalation</h2>
       <img src="assets/img/page 1/image_1.png" alt="" class="mere" />
-      <p class="instal_txt">
+      <p class="instal_txt translation" data-lang="fr">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -29,12 +28,16 @@
         popularised in the 1960s with the release of Letraset sheets containing
         Lorem Ipsum passages, and more recently with desktop publishing software
         like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+        <!-- anglais -->
+      <p class="instal_txt translation hidden"data-lang="en">
+        inserer texte en anglais
       </p>
     </div>
 
-    <div class="container">
+    <div class="container fade-up-element">
       <img src="assets/img/page 1/image_1.png" alt="" class="instal_img2" />
-      <p class="instal_txt">
+      <p class="instal_txt translation" data-lang="fr">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -49,12 +52,14 @@
         Lorem Ipsum passages, and more recently with desktop publishing software
         like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
+      <!-- anglais -->
+      <p class="instal_txt translation hidden left" data-lang="en"> inserer texte en anglais</p>
     </div>
 
     <img src="" alt="" width="80%" />
 
     <?php include 'utile/footer.html' ?>
-    <script src="assets/js/nav.js"></script>
-
+    <script src="assets/js/translate.js"></script>
+    <script src="assets/js/fade-up.js"></script>
   </body>
 </html>

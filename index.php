@@ -11,7 +11,7 @@
       <header>
       <?php include 'utile/nav.html'; ?>
       </header>
-      <h1 id="titre">BRIE HAPPY</h1>
+      <h1 class="titre">BRIE HAPPY</h1>
       <h2 id="date">2023</h2>
       <div class="centre">
       <video id="background-video" autoplay loop muted>
