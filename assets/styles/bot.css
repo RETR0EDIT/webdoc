@@ -1,0 +1,204 @@
+
+
+.fenetre-chatbot {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 360px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: #f0f0f0;
+}
+
+.chatbot-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fermer {
+    cursor: pointer;
+}
+
+.chatbot-corps {
+    padding: 10px;
+    height: 440px;
+    overflow-y: auto;
+    margin-bottom: 160px;
+    background-color: #f0f0f0;
+}
+
+.boutons-questions {
+    position: absolute;
+    bottom: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.chatbot-ouverture {
+    animation: ouvertureChatbot 0.5s ease-in-out;
+}
+
+@keyframes ouvertureChatbot {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chatbot-fermeture {
+    animation: fermetureChatbot 0.5s ease-in-out;
+}
+
+@keyframes fermetureChatbot {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.chatbot-ecriture {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+    animation: chatbotEcriture 1s ease; /* Animation d'écriture */
+}
+
+@keyframes chatbotEcriture {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.chatbot-message {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+}
+
+.chat-personne {
+    background-color: #a7e0a3!important; /* Couleur de fond pour les messages de l'utilisateur */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    margin-left: auto;
+}
+.message {
+    background-color: #d1d1d1; /* Couleur de fond pour les messages de l'utilisateur */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    align-self: flex-end; /* Aligner à droite */
+}
+
+.bouton-chat{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 100;
+    align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+}
+
+.bouton-chat:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.bouton-chat:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.brie{
+    font-size: 30px;
+}
+
+.message p{
+    text-align: start!important;
+}
+.question{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-size: 12px;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 5px 0 5px 0;
+    outline: none;
+    padding: 0.5rem 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.question:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}

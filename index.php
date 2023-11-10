@@ -7,6 +7,8 @@
     <title>Document</title>
   </head>
   <body class="">
+    
+
     <div id="translated-texts">
       <header>
       <?php include 'utile/nav.html'; ?>
@@ -18,6 +20,7 @@
         <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
       </video>
       </div>
+      
       <section id="partie_1">
         <div class="resumer fade-up-element">
           <div class="resumer_txt">
@@ -240,9 +243,20 @@
 
       
     </div>
+    <button onclick="ouvrirFenetreChatbot()" class="bouton-chat">Ouvrir Chatbot</button>
+    <div id="fenetreChatbot" class="fenetre-chatbot">
+    <div class="chatbot-header">
+        <span class="fermer" onclick="fermerFenetreChatbot()">&times;</span>
+        <h2 class="brie">Chatbot Brie de Meaux</h2>
+    </div>
+    <div class="chatbot-corps">
+    </div>
+</div>
+
     <?php include 'utile/footer.html'; ?>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/translate.js"></script>
     <script src="assets/js/fade-up.js"></script>
+    <script src="assets/js/bot.js"></script>
   </body>
 </html>
