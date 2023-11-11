@@ -46,27 +46,27 @@ footer .waves .wave__box {
 footer .waves .wave__box--1 {
   height: 400px;
   border-radius: 200px 350px 0px 0px;
-  background: linear-gradient(0deg, #de3163, #de3163, #f33a6a, #ffb6c1, #ffb6c1, #fff, #fff, #fff);
+  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 footer .waves .wave__box--2 {
   height: 250px;
   border-radius: 250px 200px 0px 0px;
-  background: linear-gradient(0deg, #de3163, #de3163, #de3163, #f33a6a, #ffb6c1, #ffb6c1, #fff);
+  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 footer .waves .wave__box--3 {
   height: 300px;
   border-radius: 500px 200px 0px 0px;
-  background: linear-gradient(0deg, #de3163, #de3163, #f33a6a, #ffb6c1, #ffb6c1, #fff, #fff);
+  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 footer .waves .wave__box--4 {
   height: 500px;
   border-radius: 5350px 3000px 0px 0px;
-  background: linear-gradient(0deg, #de3163, #de3163, #f33a6a, #ffb6c1, #ffb6c1, #fff, #fff, #fff, #fff, #fff);
+  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 footer .waves .wave__box--5 {
   height: 400px;
   border-radius: 400px 200px 0px 0px;
-  background: linear-gradient(0deg, #de3163, #de3163, #f33a6a, #ffb6c1, #ffb6c1, #fff, #fff, #fff);
+  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 @keyframes wave {
   0% {

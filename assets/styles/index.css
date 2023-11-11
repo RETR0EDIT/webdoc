@@ -214,10 +214,10 @@
 }
 
 .trait {
-  margin: 40px auto 40px auto;
+  margin: 60px auto 60px auto;
   width: 90%;
-  height: 0px;
-  border: 2px solid #000000;
+
+  border: 1.5px solid #000000;
 }
 
 video {

@@ -141,14 +141,13 @@
         </div>
       </section>
 
-      <div class="trait fade-up-element">
+      <div class="trait fade-up-element"></div>
 
       <h2 class="h2_section_2 translation" data-lang="fr">Carte intéractive</h2>
       <!-- anglais -->
       <h2 class="h2_section_2 translation hidden" data-lang="en">
         Interactive map
       </h2>
-      </div>
       <section class="section_carte">
       <div class="fade-up-element">
         <div class="img_container">

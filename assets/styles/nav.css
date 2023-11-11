@@ -37,7 +37,7 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.nav > .nav-links > button {
+.nav-links > button {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
@@ -200,3 +200,6 @@ body.dark-mode {
   margin-bottom: 50px;
 }
 
+.dark-mode .trait{
+  border: 1.5px solid #fff;
+}
