@@ -1,7 +1,7 @@
 var inputMessage = document.getElementById("inputMessage");
 var chatbotCorps = document.querySelector(".chatbot-corps");
 
-function ouvrirFenetreChatbot() {
+function test() {
     var fenetreChatbot = document.getElementById("fenetreChatbot");
     fenetreChatbot.style.display = "block";
     fenetreChatbot.classList.add("chatbot-ouverture");
