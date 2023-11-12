@@ -16,7 +16,7 @@
   padding: 10px 20px 10px 40px;
 }
 
-/* partie 1 */
+
 .resumer {
   display: flex;
   flex-direction: row;
@@ -32,7 +32,7 @@
   padding: 10px 20px 10px 20px;
 }
 
-/* partie 2 */
+
 .h3_section_2 {
   padding: 10px 0 10px 40px;
 }
@@ -50,7 +50,6 @@
   font-size: 20px;
 }
 
-/* partie carte*/
 .section_carte {
   position: relative;
   margin: auto;

@@ -241,17 +241,23 @@
     </div>
     <div class="chatbot-corps">
       <div class="boutons-questions">
-        <button class="question translation" data-lang="fr">Qu'est-ce que le Brie de Meaux ?</button>
-        <button class="question translation" data-lang="fr">Comment est-il fabriqué ?</button>
-        <button class="question translation" data-lang="fr">Où est produit le Brie de Meaux ?</button>
-        <button class="question translation" data-lang="fr">Depuis combien de temps le Brie de Meaux existe-t-il
+        <button class="question translation" data-lang="fr" onclick="question_1()">Qu'est-ce que le Brie de Meaux
+          ?</button>
+        <button class="question translation" data-lang="fr" onclick="question_2()">Comment est-il fabriqué ?</button>
+        <button class="question translation" data-lang="fr" onclick="question_3()">Où est produit le Brie de Meaux
+          ?</button>
+        <button class="question translation" data-lang="fr" onclick="question_4()">Depuis combien de temps le Brie de
+          Meaux existe-t-il
           ?</button>
         <!-- anglais -->
-        <button class="question translation hidden" data-lang="en">What is Brie de Meaux?</button>
-        <button class="question translation hidden" data-lang="en">How is it made?</button>
-        <button class="question translation hidden" data-lang="en">Where is Brie de Meaux produced?</button>
-        <button class="question translation hidden" data-lang="en">How long has Brie de Meaux been around?
-          </button>
+        <button class="question translation hidden" data-lang="en" onclick="question_1()">What is Brie de
+          Meaux?</button>
+        <button class="question translation hidden" data-lang="en" onclick="question_2()">How is it made?</button>
+        <button class="question translation hidden" data-lang="en" onclick="question_3()">Where is Brie de Meaux
+          produced?</button>
+        <button class="question translation hidden" data-lang="en" onclick="question_4()">How long has Brie de Meaux
+          been around?
+        </button>
       </div>
     </div>
   </div>

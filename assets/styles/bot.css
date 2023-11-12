@@ -78,7 +78,7 @@
     margin-bottom: 10px;
     max-width: 70%;
     align-self: flex-start;
-    animation: chatbotEcriture 1s ease; /* Animation d'écriture */
+    animation: chatbotEcriture 1s ease;
 }
 
 @keyframes chatbotEcriture {
@@ -101,8 +101,18 @@
     align-self: flex-start;
 }
 
-.chat-personne {
-    background-color: #a7e0a3!important; /* Couleur de fond pour les messages de l'utilisateur */
+.chat-personne-fr {
+    background-color: #a7e0a3!important;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    margin-left: auto;
+}
+
+.chat-personne-en {
+    background-color: #a7e0a3!important;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -111,12 +121,12 @@
     margin-left: auto;
 }
 .message {
-    background-color: #d1d1d1; /* Couleur de fond pour les messages de l'utilisateur */
+    background-color: #d1d1d1;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     max-width: 70%;
-    align-self: flex-end; /* Aligner à droite */
+    align-self: flex-end;
 }
 
 .bouton-chat{
@@ -217,24 +227,41 @@
     background-color: #333;
 }
 
-.dark-mode .chat-personne{
+.dark-mode .chat-personne-fr{
     background-color: #4CAF50!important;
 }
 
-#fr .message p.fr {
-    display: block;
-
+.dark-mode .chat-personne-en{
+    background-color: #4CAF50!important;
 }
 
-#fr .message p.en {
+#en .chat-personne-fr{
     display: none;
 }
 
-#en .message p.fr {
-    display: none;
-}
-
-#en .message p.en {
+#en .chat-personne-en{
     display: block;
 }
 
+#fr .chat-personne-en{
+    display: none;
+}
+
+#fr .chat-personne-fr{
+    display: block;
+}
+
+#fr .fr{
+    display: block;
+}
+
+#en .en{
+    display: block;
+}
+
+#fr .en{
+    display: none;
+}
+#en .fr{
+    display: none;
+}
