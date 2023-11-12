@@ -55,20 +55,8 @@ function afficherMessage(message, ecriture) {
 function initChat() {
     afficherMessage("Chatbot : Bonjour! Comment puis-je vous aider?");
 
-    var questions = [
-        "Qu'est-ce que le Brie de Meaux?",
-        "Comment est-il fabriqué?",
-        "Où est produit le Brie de Meaux?",
-        "Depuis combien de temps le Brie de Meaux existe-t-il ?"
-    ];
-
-    var boutonsQuestions = document.createElement("div");
-    boutonsQuestions.className = "boutons-questions";
-
     questions.forEach(function (question) {
-        var bouton = document.createElement("button");
-        bouton.textContent = question;
-        bouton.classList.add("question"); // Ajoute la classe "question" au bouton
+        document.getElementsByClassName('question')
         bouton.onclick = function () {
             poserQuestion(question);
         };

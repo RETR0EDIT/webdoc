@@ -240,6 +240,19 @@
       <h2 class="brie">Chatbot Brie de Meaux</h2>
     </div>
     <div class="chatbot-corps">
+      <div class="boutons-questions">
+        <button class="question translation" data-lang="fr">Qu'est-ce que le Brie de Meaux ?</button>
+        <button class="question translation" data-lang="fr">Comment est-il fabriqué ?</button>
+        <button class="question translation" data-lang="fr">Où est produit le Brie de Meaux ?</button>
+        <button class="question translation" data-lang="fr">Depuis combien de temps le Brie de Meaux existe-t-il
+          ?</button>
+        <!-- anglais -->
+        <button class="question translation hidden" data-lang="en">What is Brie de Meaux?</button>
+        <button class="question translation hidden" data-lang="en">How is it made?</button>
+        <button class="question translation hidden" data-lang="en">Where is Brie de Meaux produced?</button>
+        <button class="question translation hidden" data-lang="en">How long has Brie de Meaux been around?
+          </button>
+      </div>
     </div>
   </div>
 
