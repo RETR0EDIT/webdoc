@@ -10,9 +10,10 @@
     <?php include 'utile/nav.html'?>
     <h1 class="titre">Place principal</h1>
     <img src="" alt="" height="100%">
-    <section id="instalation"></section>
+    <section id="instalation">
+    
     <div class="container">
-      <h2>Instalation</h2>
+    <h2>Instalation</h2>
       <img src="assets/img/page_1/image_1.png" alt="" class="mere">
       <p class="instal_txt translation" data-lang="fr">
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -55,7 +56,7 @@
       <!-- anglais -->
       <p class="instal_txt translation hidden left" data-lang="en"> inserer texte en anglais</p>
     </div>
-
+    </section>
     <img src="" alt="" width="80%">
 
     <?php include 'utile/footer.html' ?>

@@ -240,6 +240,7 @@
       <h2 class="brie">Chatbot Brie de Meaux</h2>
     </div>
     <div class="chatbot-corps">
+    <div class= "none" id="ball-container"><div class = "ball" id="ball-1"></div><div class= "ball" id="ball-2"></div><div class="ball" id="ball-3"></div></div>
       <div class="boutons-questions">
         <button class="question translation" data-lang="fr" onclick="question_1()">Qu'est-ce que le Brie de Meaux
           ?</button>
@@ -261,7 +262,7 @@
       </div>
     </div>
   </div>
-
+  
   <?php include 'utile/footer.html'; ?>
   <script src="assets/js/bot.js"></script>
   <script src="assets/js/popup.js"></script>

@@ -270,3 +270,115 @@
 .chatbot-corps {
     scroll-behavior: smooth;
 }
+
+
+
+#ball-container {
+    display: flex;
+    position: absolute;
+    bottom: 140px;
+    left: 13%;
+    transform: translate(-50%,-50%);
+
+    
+  }
+  
+  .ball {
+    background: rgb(0,0,0,0.2);
+    width: 10%;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.2em;
+    width: 0.5em;
+    height: 0.5em;
+    border-style: none;
+    margin:0.3em;
+    animation: ani 0.5s infinite;
+    /*x-transition: all 1s ease-in-out;*/ 
+  }
+  
+  #ball-1{
+    
+    animation: ani1 1s infinite;
+    
+  }
+  #ball-2{
+    
+    animation: ani2 1s infinite;
+      
+  }
+  
+  #ball-3{
+       animation: ani3 1s infinite;
+  }
+  
+  @keyframes ani1 {
+    0% {
+      transform: scale(1.0);
+    }
+    20% {
+      transform: scale(1.5);
+      background: rgb(0,0,0,0.3);
+    }
+    40% {
+      transform: scale(1.0);
+    }
+    60%{
+      transform: scale(1.0);
+    }
+    80% {
+      transform: scale(1.0);
+    }
+    100%{
+      transform: scale(1.0)
+    }
+  }
+  
+  @keyframes ani2 {
+    0% {
+      transform: scale(1.0);
+    }
+    20% {
+      transform: scale(1.0);
+    }
+    40% {
+      transform: scale(1.5) translate(0%,-25%);
+      background: rgb(0,0,0,0.3);
+    }
+    60%{
+      transform: scale(1.0);
+    }
+    80% {
+      transform: scale(1.0);
+    }
+    100%{
+      transform: scale(1.0);
+    }
+  }
+  
+  @keyframes ani3 {
+    0% {
+      transform: scale(1.0);
+    }
+    20% {
+      transform: scale(1.0);
+    }
+    40% {
+      transform: scale(1.0);
+    }
+    60%{
+      transform: scale(1.5);
+      background: rgb(0,0,0,0.3);
+    }
+    80% {
+      transform: scale(1.0)
+    }
+    100%{
+      transform: scale(1.0)
+    }
+  }
+
+  .none{
+    display: none!important;
+  }
