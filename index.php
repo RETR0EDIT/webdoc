@@ -47,7 +47,7 @@
               inserer texte en anglais
             </p>
           </div>
-          <div>
+          <div class="img_presentation">
             <img src="assets/img/page_1/image_1.png"
               alt="image_1"
               class="image_1"
@@ -242,7 +242,7 @@
 
       
     </div>
-    <button onclick="ouvrirFenetreChatbot()" class="bouton-chat">Ouvrir Chatbot</button>
+    <button onclick="test()" class="bouton-chat">Ouvrir Chatbot</button>
     <div id="fenetreChatbot" class="fenetre-chatbot">
     <div class="chatbot-header">
         <span class="fermer" onclick="fermerFenetreChatbot()">&times;</span>
@@ -253,9 +253,9 @@
 </div>
 
     <?php include 'utile/footer.html'; ?>
+    <script src="assets/js/bot.js"></script>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/translate.js"></script>
     <script src="assets/js/fade-up.js"></script>
-    <script src="assets/js/bot.js"></script>
   </body>
 </html>
