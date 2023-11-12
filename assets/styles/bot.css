@@ -18,7 +18,7 @@
     color: white;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -176,6 +176,7 @@
 }
 
 .brie{
+    padding: 0;
     font-size: 30px;
 }
 
@@ -264,4 +265,8 @@
 }
 #en .fr{
     display: none;
+}
+
+.chatbot-corps {
+    scroll-behavior: smooth;
 }

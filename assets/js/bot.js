@@ -47,6 +47,9 @@ function afficherMessage(message, langue, classes) {
     div.appendChild(p);
 
     chatbotCorps.appendChild(div);
+    requestAnimationFrame(() => {
+        chatbotCorps.scrollTop = chatbotCorps.scrollHeight;
+    });
 }
 
 function initChat() {

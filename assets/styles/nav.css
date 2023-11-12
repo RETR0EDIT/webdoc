@@ -97,7 +97,7 @@
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: 182px;
     overflow-y: auto;
   }
 }
@@ -173,7 +173,6 @@ body.dark-mode {
 
 .dark-mode #nuit {
   position: absolute;
-  filter: invert(100%);
   top: -6px;
   left: -6px;
   display: block;
