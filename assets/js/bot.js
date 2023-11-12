@@ -1,5 +1,6 @@
 var inputMessage = document.getElementById("inputMessage");
 var chatbotCorps = document.querySelector(".chatbot-corps");
+var currentLanguage = "fr"; 
 
 function test() {
     var fenetreChatbot = document.getElementById("fenetreChatbot");
@@ -40,7 +41,14 @@ function afficherMessage(message, ecriture) {
         div.classList.add("chat-personne");
     }
 
-    div.innerHTML = "<p>" + message + "</p>";
+    var p = document.createElement("p");
+    p.textContent = message;
+
+    // Ajouter la classe en ou fr en fonction de la langue courante
+    p.classList.add(currentLanguage);
+
+    div.appendChild(p);
+
     chatbotCorps.appendChild(div);
 }
 
