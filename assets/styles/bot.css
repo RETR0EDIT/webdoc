@@ -38,7 +38,7 @@
     position: absolute;
     bottom: 0;
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 6px;
 }
 
 .chatbot-ouverture {
@@ -202,3 +202,39 @@
 .question:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
+
+.dark-mode .question{
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode .question:hover {
+    scale: 1.05;
+    transition: all ease 0.3s;
+    box-shadow: none;
+  }
+
+.dark-mode .message{
+    background-color: #333;
+}
+
+.dark-mode .chat-personne{
+    background-color: #4CAF50!important;
+}
+
+#fr .message p.fr {
+    display: block;
+
+}
+
+#fr .message p.en {
+    display: none;
+}
+
+#en .message p.fr {
+    display: none;
+}
+
+#en .message p.en {
+    display: block;
+}
+

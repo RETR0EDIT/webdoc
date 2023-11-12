@@ -6,6 +6,7 @@ document.getElementById("toggle-eng").addEventListener("click", en);
 document.getElementById("toggle-fr").addEventListener("click", fr);
 
 function setEnglishMode() {
+  setLanguageMode("en");
   translations.forEach((element) => {
     const lang = element.getAttribute("data-lang");
     if (lang === "en") {
@@ -18,6 +19,7 @@ function setEnglishMode() {
 }
 
 function setFrenchMode() {
+  setLanguageMode("fr");
   translations.forEach((element) => {
     const lang = element.getAttribute("data-lang");
     if (lang === "fr") {
@@ -44,3 +46,15 @@ document.getElementById("toggle-eng").addEventListener("click", () => {
 document.getElementById("toggle-fr").addEventListener("click", () => {
   setFrenchMode();
 });
+
+function setLanguageMode(language) {
+  translations.forEach((element) => {
+    const lang = element.getAttribute("data-lang");
+    element.style.display = lang === language ? "block" : "none";
+  });
+
+  document.documentElement.lang = language; // Changer l'attribut lang de la balise HTML
+  document.documentElement.lang = language; // Changer l'attribut lang de la balise HTML
+  document.documentElement.id = language === "en" ? "en" : "fr"; // Ajouter l'attribut id en fonction de la langue
+  localStorage.setItem("language", language);
+}
