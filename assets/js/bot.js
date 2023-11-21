@@ -1,14 +1,38 @@
 var inputMessage = document.getElementById("inputMessage");
 var chatbotCorps = document.querySelector(".chatbot-corps");
+var vibratingButton = document.getElementById('vibratingButton');
+
+document.addEventListener('DOMContentLoaded', function () {
+    vibratingButton.classList.add('vibrating');
+});
 
 function test() {
+    function finAnimation() {
+        vibratingButton.style.display = "none";
+        vibratingButton.removeEventListener("animationend", finAnimation);
+    }
+    vibratingButton.classList.add('chatbot-fermeture', 'disparition');
+    vibratingButton.classList.remove('vibrating');
+    vibratingButton.addEventListener("animationend", finAnimation);
+
     var fenetreChatbot = document.getElementById("fenetreChatbot");
     fenetreChatbot.style.display = "block";
     fenetreChatbot.classList.add("chatbot-ouverture");
 }
 
+function finAnimation() {
+    fenetreChatbot.style.display = "none";
+    fenetreChatbot.removeEventListener("animationend", finAnimation);
+}
+
+
+
 function fermerFenetreChatbot() {
     nettoyerMessages();
+
+    vibratingButton.style.display = "block";
+    vibratingButton.classList.replace("chatbot-fermeture", "chatbot-ouverture");
+
     var fenetreChatbot = document.getElementById("fenetreChatbot");
     fenetreChatbot.classList.replace("chatbot-ouverture", "chatbot-fermeture");
 
@@ -53,7 +77,6 @@ function afficherMessageAvecDelai(message, langue, classes, delai) {
     }, delai);
 }
 
-// Exemple d'utilisation avec un délai de 3 secondes
 afficherMessageAvecDelai("Bonjour! Comment puis-je vous aider?", "", "chatbot-message fr");
 afficherMessageAvecDelai("Hello! How can I help you?", "", "chatbot-message en");
 

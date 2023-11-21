@@ -233,7 +233,7 @@
 
 
   </div>
-  <button onclick="test()" class="bouton-chat"><img src="assets/img/bot/fromage_bot.png" alt=""></button>
+  <button id="vibratingButton" class="bouton-chat" onclick="test()"><img src="assets/img/bot/fromage_bot.png" alt=""></button>
   <div id="fenetreChatbot" class="fenetre-chatbot">
     <div class="chatbot-header">
       <span class="fermer" onclick="fermerFenetreChatbot()">&times;</span>

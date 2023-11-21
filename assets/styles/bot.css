@@ -366,3 +366,16 @@
   .none{
     display: none!important;
   }
+
+  .vibrating {
+    animation: vibrate 0.25s infinite alternate;
+  }
+  
+  @keyframes vibrate {
+    from {
+      right: 0;
+    }
+    to {
+      right: 3px; /* Ajustez la distance de vibration selon vos besoins */
+    }
+  }
