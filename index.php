@@ -15,9 +15,9 @@
     <header>
       <?php include 'utile/nav.html'; ?>
     </header>
-    <h1 class="titre fade-up-element">BRIE HAPPY</h1>
-    <h2 id="date" class="fade-up-element">2023</h2>
+      
     <div class="centre fade-up-element">
+      <img src="assets/img/page_1/banniere.png" alt="">
       <video id="background-video" autoplay loop muted>
         <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
       </video>
