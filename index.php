@@ -30,6 +30,7 @@
           <!-- anglais -->
           <h2 class="translation hidden" data-lang="en">Event summary</h2>
 
+          
           <br>
           <br>
           <p class="texte translation" data-lang="fr">
