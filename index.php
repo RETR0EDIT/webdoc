@@ -17,7 +17,6 @@
     </header>
       
     <div class="centre fade-up-element">
-      <img src="assets/img/page_1/banniere.png" alt="">
       <video id="background-video" autoplay loop muted>
         <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
       </video>
@@ -26,9 +25,9 @@
     <section id="partie_1">
       <div class="resumer fade-up-element">
         <div class="resumer_txt">
-          <h2 class="translation " data-lang="fr">Résumer Évènement</h2>
+          <h2 class="translation  ntm" data-lang="fr">Résumer Évènement</h2>
           <!-- anglais -->
-          <h2 class="translation hidden" data-lang="en">Event summary</h2>
+          <h2 class="translation hidden ntm" data-lang="en">Event summary</h2>
 
           
           <br>

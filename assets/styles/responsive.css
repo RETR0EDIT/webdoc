@@ -92,18 +92,7 @@
   }
 }
 @media (max-width: 930px) {
-  .resumer {
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-  }
-  .resumer div {
-    width: 100%;
-  }
-  .image_1{
-    width: 100%;
-  }
+
 
   #resume_evenement{
     width: 100%;
@@ -114,22 +103,12 @@
   }
 }
 @media (max-width: 768px) {
-  .description{
-    padding: 10px 20px!important;  
-  }
-  .titre{
-    font-size: 50px!important;
-  }
-  h2{
-    padding: 0!important;
-    font-size: 30px!important;
-  }
+
+
   .resumer-txt{
     padding: 0;
   }
-  p{
-    font-size: 17px!important;
-  }
+
   .section_carte {
     width: 480px;
     height: 400px;
@@ -194,10 +173,19 @@
 }
 
 @media (max-width: 480px) {
-  .resumer div {
-    width: 100%;
-  }
-  p{
-    font-size: 12px!important;
-  }
+.carte{
+  width: 100px;
+
+}
+.img_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.section_carte{
+  width: 100%;
+}
 }

@@ -21,11 +21,10 @@ footer .content .box:last-child {
   margin-right: 0px;
 }
 footer .content .box h4 {
-  font-size: 35px;
+  font-size: 2.5vw;
   font-weight: 500;
 }
 footer .content .box p {
-  font-size: 20px;
 }
 footer .waves {
   display: flex;

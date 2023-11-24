@@ -1,5 +1,12 @@
 .texte {
-  font-size: 25px;
+  width: 60%;
+  margin: auto;
+}
+
+.ntm{
+  margin: auto;
+  width: 60%;
+  padding: 0;
 }
 
 #date {
@@ -7,13 +14,15 @@
 }
 
 .image_1 {
-  width: 500px;
+  padding-top: 10%;
+  width:60%;
 }
 
 .description {
+  color: #fff!important;
   text-align: center;
   margin: auto;
-  padding: 10px 20px 10px 40px;
+  padding: 10px 20px 10% 40px;
 }
 
 
@@ -21,16 +30,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.resumer div {
+  align-items: center;
+  width: 100%;
   height: 100%;
-  width: 500px;
 }
 
-.resumer_txt {
-  padding: 10px 20px 10px 20px;
-}
 
 
 .h3_section_2 {
@@ -47,7 +51,6 @@
   width: 70%;
   margin: auto;
   text-align: justify;
-  font-size: 20px;
 }
 
 .section_carte {
@@ -63,6 +66,7 @@
   height: 1200px;
   align-items: center;
   margin: auto;
+
 }
 
 .position {
@@ -212,7 +216,7 @@
 }
 
 .trait {
-  margin: 60px auto 60px auto;
+  margin: 10% auto 10% auto;
   width: 90%;
 
   border: 1.5px solid #000000;
@@ -227,7 +231,7 @@ video {
 
 .centre {
   text-align: center;
-  margin: 40px 0 40px 0;
+  margin-bottom: -3px;
 }
 
 .hidden {
@@ -262,4 +266,32 @@ video {
   width: 100%;
 }
 
+h2 {
+  font-size: 2vw;
+}
 
+h3 {
+  font-size: 1.5vw;
+}
+p{
+  font-size: 1.2vw;
+}
+
+.resumer_txt{
+  width: 60%;
+}
+
+.img_presentation{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: #00000085;
+}
+
+#partie_1{
+  background-image: url('../img/page_1/img_fond_partie_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
