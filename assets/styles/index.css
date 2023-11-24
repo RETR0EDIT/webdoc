@@ -14,15 +14,15 @@
 }
 
 .image_1 {
-  padding-top: 10%;
-  width:60%;
+  padding-top: 15%;
+  width:70%;
 }
 
 .description {
   color: #fff!important;
   text-align: center;
   margin: auto;
-  padding: 10px 20px 10% 40px;
+  padding: 10px 20px 15% 40px;
 }
 
 
@@ -216,7 +216,7 @@
 }
 
 .trait {
-  margin: 10% auto 10% auto;
+  margin: 5% auto 5% auto;
   width: 90%;
 
   border: 1.5px solid #000000;
