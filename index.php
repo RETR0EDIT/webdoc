@@ -22,9 +22,9 @@
       </video>
     </div>
 
-    <section id="partie_1">
+    <section id="partie_1" class="fade-up-element">
       <div class="resumer fade-up-element">
-        <div class="resumer_txt">
+        <div class="resumer_txt fade-up-element">
           <h2 class="translation  ntm" data-lang="fr">Résumer Évènement</h2>
           <!-- anglais -->
           <h2 class="translation hidden ntm" data-lang="en">Event summary</h2>

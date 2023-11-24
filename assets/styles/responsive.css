@@ -82,9 +82,11 @@
 @media (max-width: 1048px) {
   .svg{
     display: none;
+    
   }
-  footer .content {
-    color: #333!important;
+  .demi-cercle{
+    background-color: #333!important;
+    height: 758px;
   }
 
   .dark-mode footer .content {
