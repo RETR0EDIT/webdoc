@@ -1,7 +1,6 @@
 @media (max-width: 1600px) {
   .section_carte {
     width: 768px;
-    height: 600px;
   }
 
   .img_container {
@@ -90,7 +89,7 @@
 
   .demi-cercle {
     background-color: #333 !important;
-    height: 758px;
+    height: 650px;
   }
 
   .dark-mode footer .content {
@@ -120,7 +119,6 @@
 
   .section_carte {
     width: 480px;
-    height: 400px;
   }
 
   .img_container {
@@ -180,6 +178,24 @@
     top: 95px;
     left: 100px;
   }
+  .wave__box--5 {
+    height: 250px!important;
+  }
+.wave__box--4 {
+  height: 300px!important;
+}
+.wave__box--3 {
+  height: 200px!important;
+}
+
+.wave__box--2 {
+  height: 150px!important;
+}
+.wave__box--1 {
+  height: 
+  228px!important;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -197,7 +213,11 @@
     height: 100%;
   }
 
-  .section_carte {
-    width: 100%;
+  footer{
+    padding-top: 0!important;
+  }
+
+  .demi-cercle {
+    height: 45%;
   }
 }

@@ -21,3 +21,15 @@ h3 {
 p {
   font-size: 1.2vw;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-image: url(../img/scroll.png);
+  height: 125px;
+  width: 100%;
+}
+
