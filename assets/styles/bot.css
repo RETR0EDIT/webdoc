@@ -1,138 +1,142 @@
-
-
 .fenetre-chatbot {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 360px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    z-index: 1000;
-    background-color: #f0f0f0;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 360px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1000;
+  background-color: #f0f0f0;
 }
-.dark-mode > .fenetre-chatbot{
+
+.dark-mode>.fenetre-chatbot {
   background-color: #00000091;
 }
+
 .chatbot-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .fermer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .chatbot-corps {
-    padding: 10px;
-    height: 440px;
-    overflow-y: auto;
-    margin-bottom: 160px;
+  padding: 10px;
+  height: 440px;
+  overflow-y: auto;
+  margin-bottom: 160px;
 
 }
 
 .boutons-questions {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 
-    padding: 6px;
+  padding: 6px;
 }
 
 .chatbot-ouverture {
-    animation: ouvertureChatbot 0.5s ease-in-out;
+  animation: ouvertureChatbot 0.5s ease-in-out;
 }
 
 @keyframes ouvertureChatbot {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .chatbot-fermeture {
-    animation: fermetureChatbot 0.5s ease-in-out;
+  animation: fermetureChatbot 0.5s ease-in-out;
 }
 
 @keyframes fermetureChatbot {
-    from {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    to {
-        opacity: 0;
-        transform: translateY(20px);
-    }
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 }
 
 .chatbot-ecriture {
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    max-width: 70%;
-    align-self: flex-start;
-    animation: chatbotEcriture 1s ease;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  align-self: flex-start;
+  animation: chatbotEcriture 1s ease;
 }
 
 @keyframes chatbotEcriture {
-    from {
-        width: 0;
-        opacity: 0;
-    }
-    to {
-        width: 100%;
-        opacity: 1;
-    }
+  from {
+    width: 0;
+    opacity: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
 .chatbot-message {
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    max-width: 70%;
-    align-self: flex-start;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  align-self: flex-start;
 }
 
 .chat-personne-fr {
-    background-color: #a7e0a3!important;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 70%;
-    margin-left: auto;
+  background-color: #a7e0a3 !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  margin-left: auto;
 }
 
 .chat-personne-en {
-    background-color: #a7e0a3!important;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    max-width: 70%;
-    margin-left: auto;
-}
-.message {
-    background-color: #d1d1d1;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    max-width: 70%;
-    align-self: flex-end;
+  background-color: #a7e0a3 !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  margin-left: auto;
 }
 
-.bouton-chat{
-  background:none;
+.message {
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+.bouton-chat {
+  background: none;
   position: fixed;
   bottom: 50px;
   right: 0;
@@ -149,231 +153,257 @@
   padding: 2px 24px;
   text-align: center;
   text-transform: none;
-  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 
-  will-change: transform,opacity;
-}
-.bouton-chat > img {
-  width: 140px;
-}
-.brie{
-    padding: 0;
-    font-size: 30px;
+  will-change: transform, opacity;
 }
 
-.message p{
-    text-align: start!important;
+.bouton-chat>img {
+  width: 140px;
 }
-.question{
-    align-items: center;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
-    box-sizing: border-box;
-    color: #121212;
-    cursor: pointer;
-    display: inline-flex;
-    flex: 1 1 auto;
-    font-size: 12px;
-    font-family: Inter,sans-serif;
-    font-weight: 700;
-    justify-content: center;
-    line-height: 1;
-    margin: 5px 0 5px 0;
-    outline: none;
-    padding: 0.5rem 0.6rem;
-    text-align: center;
-    text-decoration: none;
-    transition: box-shadow .2s,-webkit-box-shadow .2s;
-    white-space: nowrap;
-    border: 0;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+
+.brie {
+  padding: 0;
+  font-size: 30px;
 }
+
+.message p {
+  text-align: start !important;
+}
+
+.question {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 5px 0 5px 0;
+  outline: none;
+  padding: 0.5rem 0.6rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
 .question:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
+
 /*dark mode*/
-.dark-mode .question{
-    background-color: #333;
-    color: #fff;
+.dark-mode .question {
+  background-color: #333;
+  color: #fff;
 }
+
 .dark-mode .question:hover {
-    scale: 1.05;
-    transition: all ease 0.3s;
-    box-shadow: none;
-  }
-
-.dark-mode .message{
-    background-color: #333;
+  scale: 1.05;
+  transition: all ease 0.3s;
+  box-shadow: none;
 }
 
-.dark-mode .chat-personne-fr{
-    background-color: #4CAF50!important;
+.dark-mode .message {
+  background-color: #333;
 }
 
-.dark-mode .chat-personne-en{
-    background-color: #4CAF50!important;
+.dark-mode .chat-personne-fr {
+  background-color: #4CAF50 !important;
 }
+
+.dark-mode .chat-personne-en {
+  background-color: #4CAF50 !important;
+}
+
 /*fin dark mode*/
 /* anglais/francais*/
-#en .chat-personne-fr{
-    display: none;
+#en .chat-personne-fr {
+  display: none;
 }
 
-#en .chat-personne-en{
-    display: block;
+#en .chat-personne-en {
+  display: block;
 }
 
-#fr .chat-personne-en{
-    display: none;
+#fr .chat-personne-en {
+  display: none;
 }
 
-#fr .chat-personne-fr{
-    display: block;
+#fr .chat-personne-fr {
+  display: block;
 }
 
-#fr .fr{
-    display: block;
+#fr .fr {
+  display: block;
 }
 
-#en .en{
-    display: block;
+#en .en {
+  display: block;
 }
 
-#fr .en{
-    display: none;
+#fr .en {
+  display: none;
 }
-#en .fr{
-    display: none;
+
+#en .fr {
+  display: none;
 }
+
 /* fin anglais/francais*/
 .chatbot-corps {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
 
 #ball-container {
-    display: flex;
-    position: absolute;
-    bottom: 140px;
-    left: 13%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .ball {
-    background: rgb(0,0,0,0.2);
-    width: 10%;
-    border-radius: 1em;
-    text-align: center;
-    font-size: 1em;
-    padding: 0.2em;
-    width: 0.5em;
-    height: 0.5em;
-    border-style: none;
-    margin:0.3em;
-    animation: ani 0.5s infinite;
-  }
-  
-  #ball-1{
-    
-    animation: ani1 1s infinite;
-    
-  }
-  #ball-2{
-    
-    animation: ani2 1s infinite;
-      
-  }
-  
-  #ball-3{
-       animation: ani3 1s infinite;
-  }
-  
-  @keyframes ani1 {
-    0% {
-      transform: scale(1.0);
-    }
-    20% {
-      transform: scale(1.5);
-      background: rgb(0,0,0,0.3);
-    }
-    40% {
-      transform: scale(1.0);
-    }
-    60%{
-      transform: scale(1.0);
-    }
-    80% {
-      transform: scale(1.0);
-    }
-    100%{
-      transform: scale(1.0)
-    }
-  }
-  
-  @keyframes ani2 {
-    0% {
-      transform: scale(1.0);
-    }
-    20% {
-      transform: scale(1.0);
-    }
-    40% {
-      transform: scale(1.5) translate(0%,-25%);
-      background: rgb(0,0,0,0.3);
-    }
-    60%{
-      transform: scale(1.0);
-    }
-    80% {
-      transform: scale(1.0);
-    }
-    100%{
-      transform: scale(1.0);
-    }
-  }
-  
-  @keyframes ani3 {
-    0% {
-      transform: scale(1.0);
-    }
-    20% {
-      transform: scale(1.0);
-    }
-    40% {
-      transform: scale(1.0);
-    }
-    60%{
-      transform: scale(1.5);
-      background: rgb(0,0,0,0.3);
-    }
-    80% {
-      transform: scale(1.0)
-    }
-    100%{
-      transform: scale(1.0)
-    }
+  display: flex;
+  position: absolute;
+  bottom: 140px;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.ball {
+  background: rgb(0, 0, 0, 0.2);
+  width: 10%;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.2em;
+  width: 0.5em;
+  height: 0.5em;
+  border-style: none;
+  margin: 0.3em;
+  animation: ani 0.5s infinite;
+}
+
+#ball-1 {
+
+  animation: ani1 1s infinite;
+
+}
+
+#ball-2 {
+
+  animation: ani2 1s infinite;
+
+}
+
+#ball-3 {
+  animation: ani3 1s infinite;
+}
+
+@keyframes ani1 {
+  0% {
+    transform: scale(1.0);
   }
 
-  .none{
-    display: none!important;
+  20% {
+    transform: scale(1.5);
+    background: rgb(0, 0, 0, 0.3);
   }
 
-  .vibrating {
-    animation: vibrate 0.25s infinite alternate;
+  40% {
+    transform: scale(1.0);
   }
-  
-  @keyframes vibrate {
-    from {
-      right: 0;
-    }
-    to {
-      right: 3px;
-    }
+
+  60% {
+    transform: scale(1.0);
   }
+
+  80% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.0)
+  }
+}
+
+@keyframes ani2 {
+  0% {
+    transform: scale(1.0);
+  }
+
+  20% {
+    transform: scale(1.0);
+  }
+
+  40% {
+    transform: scale(1.5) translate(0%, -25%);
+    background: rgb(0, 0, 0, 0.3);
+  }
+
+  60% {
+    transform: scale(1.0);
+  }
+
+  80% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+@keyframes ani3 {
+  0% {
+    transform: scale(1.0);
+  }
+
+  20% {
+    transform: scale(1.0);
+  }
+
+  40% {
+    transform: scale(1.0);
+  }
+
+  60% {
+    transform: scale(1.5);
+    background: rgb(0, 0, 0, 0.3);
+  }
+
+  80% {
+    transform: scale(1.0)
+  }
+
+  100% {
+    transform: scale(1.0)
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.vibrating {
+  animation: vibrate 0.25s infinite alternate;
+}
+
+@keyframes vibrate {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 3px;
+  }
+}

@@ -51,8 +51,8 @@
   transform: scale(1) !important;
 }
 
-.svg {
-}
+.svg {}
+
 #rotate_180deg {
   transform: rotate(180deg);
 }
