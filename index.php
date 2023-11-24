@@ -18,7 +18,7 @@
       
     <div class="centre fade-up-element">
       <video id="background-video" autoplay loop muted>
-        <source src="Ressources/cliporelsanoderudelessence.mp4" type="video/mp4">
+        <source src="assets/video/intro.mp4" type="video/mp4">
       </video>
     </div>
 
