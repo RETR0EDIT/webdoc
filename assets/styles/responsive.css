@@ -1,7 +1,5 @@
 @media (max-width: 1600px) {
-  .section_carte {
-    width: 768px;
-  }
+
 
   .img_container {
     width: 768px;
@@ -87,9 +85,11 @@
 
   }
 
-  .demi-cercle {
-    background-color: #333 !important;
-    height: 650px;
+  footer{
+    background-color: #333;
+  }
+  .demi-cercle{
+    display: none;
   }
 
   .dark-mode footer .content {
@@ -115,10 +115,6 @@
 
   .resumer-txt {
     padding: 0;
-  }
-
-  .section_carte {
-    width: 480px;
   }
 
   .img_container {
@@ -178,23 +174,6 @@
     top: 95px;
     left: 100px;
   }
-  .wave__box--5 {
-    height: 250px!important;
-  }
-.wave__box--4 {
-  height: 300px!important;
-}
-.wave__box--3 {
-  height: 200px!important;
-}
-
-.wave__box--2 {
-  height: 150px!important;
-}
-.wave__box--1 {
-  height: 
-  228px!important;
-}
 
 }
 
@@ -212,12 +191,31 @@
     width: 100%;
     height: 100%;
   }
-
-  footer{
-    padding-top: 0!important;
+  .img_dark{
+    display: none;
   }
 
-  .demi-cercle {
-    height: 45%;
+}
+
+@media (max-width: 300px) {
+
+  .nav{
+    height: 16vw!important;
+  }
+
+  .nav>.nav-header>.nav-title {
+    font-size: 8vw!important;
+  }
+  .switch-label {
+    width: 18vw!important;
+    height: 9.3vw!important;
+  }
+  .switch-slider {
+    width: 9.3vw!important;
+    height: 9.3vw!important;
+  }
+  .nav>.nav-btn>label>span{
+    width: 7vw!important;
+    height: 3vw!important;
   }
 }

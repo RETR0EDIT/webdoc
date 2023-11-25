@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,31 +49,31 @@ footer .waves .wave__box {
 }
 
 footer .waves .wave__box--1 {
-  height: 400px;
+  height: 22vw;
   border-radius: 200px 350px 0px 0px;
   background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 
 footer .waves .wave__box--2 {
-  height: 250px;
+  height: 15vw;
   border-radius: 250px 200px 0px 0px;
   background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 
 footer .waves .wave__box--3 {
-  height: 300px;
+  height: 20vw;
   border-radius: 500px 200px 0px 0px;
   background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 
 footer .waves .wave__box--4 {
-  height: 500px;
+  height: 25vw;
   border-radius: 5350px 3000px 0px 0px;
   background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }
 
 footer .waves .wave__box--5 {
-  height: 400px;
+  height: 28vw;
   border-radius: 400px 200px 0px 0px;
   background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
 }

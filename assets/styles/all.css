@@ -29,7 +29,7 @@ p {
 
 ::-webkit-scrollbar-thumb {
   background-image: url(../img/scroll.png);
-  height: 125px;
+  height: 15%;
   width: 100%;
 }
 
