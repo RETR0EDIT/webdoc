@@ -49,7 +49,7 @@
   color: #fff !important;
   text-align: center;
   margin: auto;
-  padding: 10px 20px 15% 40px;
+  padding: 5% 0 10% 0;
 }
 
 
@@ -67,12 +67,11 @@
 
 /* section 2 */
 .h3_section_2 {
-  padding: 10px 0 10px 40px;
+  padding: 3% 0 2% 5%;
 }
 
 .h2_section_2 {
-  margin: 10px 0 10px 0;
-  padding: 20px 0 20px 40px;
+  padding: 3% 0 3% 0;
   text-align: center;
 }
 
@@ -86,29 +85,20 @@
 
 
 /* section carte */
-.section_carte {
+.div_carte {
   position: relative;
-  margin: auto;
-  width: auto;
-  color: black !important;
-  height: 100%;
-}
-
-.img_container {
-  text-align: center;
-  width: 1850px;
-  height: 1200px;
-  align-items: center;
-  margin: auto;
-
 }
 
 .position {
-  position: relative;
+  position: absolute;
 }
-
-.img_position {
-  width: 2.5%;
+.carte {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.img_position{
+  width: 4vw;
 }
 
 .carte {
@@ -116,29 +106,24 @@
 }
 
 #scene {
-  left: -19%;
-  top: 280px;
+  top: 16%;
+  left: 23%;
 }
 
 .popup {
-  width: 300px;
+  width: 40vw;
 }
 
 .popup_scene {
   display: none;
   position: absolute;
-  top: 140px;
-  left: 285px;
+  top: 30%;
+  left: 5%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.popup-image_scene {
-  max-width: 100%;
-  height: auto;
 }
 
 .popup_scene.show {
@@ -146,15 +131,15 @@
 }
 
 #lichete {
-  left: -14%;
-  top: 779px;
+  left: 30%;
+  top: 67%;
 }
 
 .popup_lichete {
   display: none;
   position: absolute;
-  top: 630px;
-  left: 435px;
+  top: 34%;
+  left: 11%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -162,9 +147,8 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.popup-image_lichete {
-  max-width: 100%;
-  height: auto;
+.popup-image{
+  height: 80%;
 }
 
 .popup_lichete.show {
@@ -172,51 +156,44 @@
 }
 
 #place_principal {
-  left: -10%;
-  top: 300px;
+  left: 41%;
+  top: 18%;
 }
 
 .popup_place_principal {
   display: none;
   position: absolute;
-  top: 155px;
-  left: 565px;
+  top: 33%;
+  left: 23%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.popup-image_place_principal {
-  max-width: 100%;
-  height: auto;
 }
 
 .popup_place_principal.show {
   display: block;
 }
+.section_carte{
+ margin-bottom: 10%;
+}
 
 #musee {
-  left: -32%;
-  top: 205px;
+  left: 17%;
+  top: 10%;
 }
 
 .popup_musee {
   display: none;
   position: absolute;
-  top: 290px;
-  left: 205px;
+  top: 22%;
+  left: 1%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.popup-image_musee {
-  max-width: 100%;
-  height: auto;
 }
 
 .popup_musee.show {
@@ -224,25 +201,20 @@
 }
 
 #concours {
-  left: -15%;
-  top: 130px;
+  left: 39%;
+  top: 1%;
 }
 
 .popup_concours {
   display: none;
   position: absolute;
-  top: 220px;
-  left: 575px;
+  top: 15%;
+  left: 21%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.popup-image_concours {
-  max-width: 100%;
-  height: auto;
 }
 
 .popup_concours.show {
@@ -294,3 +266,4 @@ video {
 }
 
 /*fin autre*/
+
