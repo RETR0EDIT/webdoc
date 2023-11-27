@@ -15,7 +15,7 @@
     <header>
       <?php include 'utile/nav.html'; ?>
     </header>
-      
+
     <div class="centre fade-up-element">
       <video id="background-video" autoplay loop muted>
         <source src="assets/video/intro.mp4" type="video/mp4">
@@ -29,7 +29,7 @@
           <!-- anglais -->
           <h2 class="translation hidden ntm" data-lang="en">Event summary</h2>
 
-          
+
           <br>
           <br>
           <p class="texte translation" data-lang="fr">
@@ -166,7 +166,6 @@
               inserer texte en anglais
             </p>
           </div>
-
           <a href="lichete.php" id="lichete" class="position"><img src="assets/img/page_1/position_1.png" alt=""
               class="img_position"></a>
           <div id="popup_lichete" class="popup_lichete popup">
@@ -181,11 +180,11 @@
               inserer texte en anglais
             </p>
           </div>
-
           <a href="place_principal.php" id="place_principal" class="position"><img
               src="assets/img/page_1/position_1.png" alt="" class="img_position"></a>
           <div id="popup_place_principal" class="popup_place_principal popup">
-            <img src="assets/img/page_1/place-principal.png" alt="place-principal" class="popup-image_place_principal popup-image">
+            <img src="assets/img/page_1/place-principal.png" alt="place-principal"
+              class="popup-image_place_principal popup-image">
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -196,7 +195,6 @@
               inserer texte en anglais
             </p>
           </div>
-
           <a href="musee.php" id="musee" class="position"><img src="assets/img/page_1/position_2.png" alt=""
               class="img_position"></a>
           <div id="popup_musee" class="popup_musee popup">
@@ -211,7 +209,6 @@
               inserer texte en anglais
             </p>
           </div>
-
           <a href="concours.php" id="concours" class="position"><img src="assets/img/page_1/position_2.png" alt=""
               class="img_position"></a>
           <div id="popup_concours" class="popup_concours popup">
@@ -226,22 +223,24 @@
               inserer texte en anglais
             </p>
           </div>
-
           <img src="assets/img/page_1/carte.png" alt="carte" class="carte">
         </div>
       </div>
     </section>
-
-
   </div>
-  <button id="vibratingButton" class="bouton-chat" onclick="test()"><img src="assets/img/bot/fromage_bot.png" alt=""></button>
+  <button id="vibratingButton" class="bouton-chat" onclick="test()"><img src="assets/img/bot/fromage_bot.png"
+      alt=""></button>
   <div id="fenetreChatbot" class="fenetre-chatbot">
     <div class="chatbot-header">
       <span class="fermer" onclick="fermerFenetreChatbot()">&times;</span>
       <h2 class="brie">Chatbot Brie de Meaux</h2>
     </div>
     <div class="chatbot-corps">
-    <div class= "none" id="ball-container"><div class = "ball" id="ball-1"></div><div class= "ball" id="ball-2"></div><div class="ball" id="ball-3"></div></div>
+      <div class="none" id="ball-container">
+        <div class="ball" id="ball-1"></div>
+        <div class="ball" id="ball-2"></div>
+        <div class="ball" id="ball-3"></div>
+      </div>
       <div class="boutons-questions">
         <button class="question translation" data-lang="fr" onclick="question_1()">Qu'est-ce que le Brie de Meaux
           ?</button>
@@ -263,12 +262,10 @@
       </div>
     </div>
   </div>
-  
   <?php include 'utile/footer.html'; ?>
   <script src="assets/js/bot.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/translate.js"></script>
   <script src="assets/js/fade-up.js"></script>
 </body>
-
 </html>
