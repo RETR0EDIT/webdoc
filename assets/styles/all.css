@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -20,16 +20,15 @@ h3 {
 
 p {
   font-size: 1.2vw;
+  text-align: justify;
 }
 
 ::-webkit-scrollbar {
   width: 12px;
 }
 
-
 ::-webkit-scrollbar-thumb {
   background-image: url(../img/scroll.png);
   height: 15%;
   width: 100%;
 }
-

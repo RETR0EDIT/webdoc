@@ -11,10 +11,6 @@
   background-color: #f0f0f0;
 }
 
-.dark-mode>.fenetre-chatbot {
-  background-color: #00000091;
-}
-
 .chatbot-header {
   background-color: #4CAF50;
   color: white;
@@ -206,31 +202,6 @@
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
 
-/*dark mode*/
-.dark-mode .question {
-  background-color: #333;
-  color: #fff;
-}
-
-.dark-mode .question:hover {
-  scale: 1.05;
-  transition: all ease 0.3s;
-  box-shadow: none;
-}
-
-.dark-mode .message {
-  background-color: #333;
-}
-
-.dark-mode .chat-personne-fr {
-  background-color: #4CAF50 !important;
-}
-
-.dark-mode .chat-personne-en {
-  background-color: #4CAF50 !important;
-}
-
-/*fin dark mode*/
 /* anglais/francais*/
 #en .chat-personne-fr {
   display: none;
@@ -269,8 +240,6 @@
   scroll-behavior: smooth;
 }
 
-
-
 #ball-container {
   display: flex;
   position: absolute;
@@ -294,15 +263,11 @@
 }
 
 #ball-1 {
-
   animation: ani1 1s infinite;
-
 }
 
 #ball-2 {
-
   animation: ani2 1s infinite;
-
 }
 
 #ball-3 {

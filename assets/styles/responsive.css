@@ -1,11 +1,10 @@
+@media (max-width: 1330px) {
 
-@media (max-width: 1330px){
-
-  .demi-cercle{
+  .demi-cercle {
     display: none;
   }
 
-  footer{
+  footer {
     background-color: #333;
   }
 }
@@ -61,7 +60,7 @@
 }
 
 @media (max-width: 480px) {
-  .img_dark{
+  .img_dark {
     display: none;
   }
 
@@ -69,23 +68,26 @@
 
 @media (max-width: 300px) {
 
-  .nav{
-    height: 16vw!important;
+  .nav {
+    height: 16vw !important;
   }
 
   .nav>.nav-header>.nav-title {
-    font-size: 8vw!important;
+    font-size: 8vw !important;
   }
+
   .switch-label {
-    width: 18vw!important;
-    height: 9.3vw!important;
+    width: 18vw !important;
+    height: 9.3vw !important;
   }
+
   .switch-slider {
-    width: 9.5vw!important;
-    height: 9.5vw!important;
+    width: 9.5vw !important;
+    height: 9.5vw !important;
   }
-  .nav>.nav-btn>label>span{
-    width: 7vw!important;
-    height: 3vw!important;
+
+  .nav>.nav-btn>label>span {
+    width: 7vw !important;
+    height: 3vw !important;
   }
 }

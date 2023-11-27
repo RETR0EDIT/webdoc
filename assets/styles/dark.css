@@ -1,0 +1,72 @@
+.dark-mode .trait {
+  border: 1.5px solid #fff;
+}
+
+.dark-mode .texte {
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.dark-mode #nuit {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  display: block;
+}
+
+.dark-mode #soleil {
+  display: none;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode {
+  transition: background-color 0.3s, color 0.3s;
+  background: none;
+  color: #fff;
+}
+
+.img_dark {
+  position: absolute;
+  top: 5px;
+  left: 185px;
+  height: 40px;
+}
+
+.dark-mode>.fenetre-chatbot {
+  background-color: #00000091;
+}
+
+.dark-mode .question {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .question:hover {
+  scale: 1.05;
+  transition: all ease 0.3s;
+  box-shadow: none;
+}
+
+.dark-mode .message {
+  background-color: #333;
+}
+
+.dark-mode .chat-personne-fr {
+  background-color: #4CAF50 !important;
+}
+
+.dark-mode .chat-personne-en {
+  background-color: #4CAF50 !important;
+}
+
+.dark-mode footer .demi-cercle .svg {
+  background-color: #333;
+  color: #333;
+}

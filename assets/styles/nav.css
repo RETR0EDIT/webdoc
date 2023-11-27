@@ -51,7 +51,6 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-
 .nav>#nav-check {
   display: none;
 }
@@ -157,37 +156,7 @@
   transform: translateX(30px);
 }
 
-body.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
-
-.dark-mode {
-  transition: background-color 0.3s, color 0.3s;
-  background: none;
-  color: #fff;
-}
-
-.img_dark {
-  position: absolute;
-  top: 5px;
-  left: 185px;
-  height: 40px;
-}
-
-#soleil,
-#nuit {
-  display: none;
-}
-
-.dark-mode #nuit {
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  display: block;
-}
-
-.dark-mode #soleil {
+#soleil, #nuit {
   display: none;
 }
 
@@ -206,8 +175,4 @@ body.dark-mode {
   width: 100%;
   transition: top 0.3s;
   margin-bottom: 50px;
-}
-
-.dark-mode .trait {
-  border: 1.5px solid #fff;
 }

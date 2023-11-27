@@ -3,12 +3,15 @@
   width: 100%;
 }
 
-
 /* section 1 */
-
 .texte {
   width: 60%;
   margin: auto;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 .ntm {
@@ -52,7 +55,6 @@
   padding: 5% 0 10% 0;
 }
 
-
 .resumer {
   display: flex;
   flex-direction: row;
@@ -63,7 +65,6 @@
 }
 
 /* fin section 1 */
-
 
 /* section 2 */
 .h3_section_2 {
@@ -83,7 +84,6 @@
 
 /* fin section 2 */
 
-
 /* section carte */
 .div_carte {
   position: relative;
@@ -92,12 +92,14 @@
 .position {
   position: absolute;
 }
+
 .carte {
   width: 100%;
   height: auto;
   display: block;
 }
-.img_position{
+
+.img_position {
   width: 4vw;
 }
 
@@ -147,7 +149,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.popup-image{
+.popup-image {
   height: 80%;
 }
 
@@ -175,8 +177,9 @@
 .popup_place_principal.show {
   display: block;
 }
-.section_carte{
- margin-bottom: 10%;
+
+.section_carte {
+  margin-bottom: 10%;
 }
 
 #musee {
@@ -220,10 +223,7 @@
 .popup_concours.show {
   display: block;
 }
-
 /* fin section carte */
-
-
 
 /*autre*/
 .trait {
@@ -264,6 +264,4 @@ video {
   height: auto;
   margin-bottom: -3px;
 }
-
 /*fin autre*/
-
