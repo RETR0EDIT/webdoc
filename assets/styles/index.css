@@ -7,17 +7,15 @@
 .texte {
   width: 60%;
   margin: auto;
-  text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
+  color: #fff;
+
 }
 
 .ntm {
   margin: auto;
   width: 60%;
   padding: 0;
+  color: #fff;
 }
 
 .resumer_txt {
@@ -37,6 +35,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 #date {
@@ -56,6 +55,7 @@
 }
 
 .resumer {
+  background-color: #0000007d;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -69,6 +69,7 @@
 /* section 2 */
 .h3_section_2 {
   padding: 3% 0 2% 5%;
+  font-size: 3.5vw;
 }
 
 .h2_section_2 {
@@ -94,22 +95,20 @@
 }
 
 .carte {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: block;
+
+  margin: 30px auto auto auto;
 }
 
 .img_position {
-  width: 4vw;
-}
-
-.carte {
-  margin-top: 30px;
+  width: 3vw;
 }
 
 #scene {
-  top: 16%;
-  left: 23%;
+  top: 18%;
+  left: 21%;
 }
 
 .popup {
@@ -134,7 +133,7 @@
 
 #lichete {
   left: 30%;
-  top: 67%;
+  top: 69%;
 }
 
 .popup_lichete {
@@ -158,8 +157,8 @@
 }
 
 #place_principal {
-  left: 41%;
-  top: 18%;
+  left: 36%;
+  top: 20%;
 }
 
 .popup_place_principal {
@@ -183,8 +182,8 @@
 }
 
 #musee {
-  left: 17%;
-  top: 10%;
+  left: 15.2%;
+  top: 12%;
 }
 
 .popup_musee {
@@ -204,8 +203,8 @@
 }
 
 #concours {
-  left: 39%;
-  top: 1%;
+  left: 35%;
+  top: 3%;
 }
 
 .popup_concours {
@@ -263,5 +262,6 @@ video {
   width: 100%;
   height: auto;
   margin-bottom: -3px;
+
 }
 /*fin autre*/

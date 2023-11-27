@@ -102,6 +102,7 @@
       <div class="trait fade-up-element"></div>
       <section class="planning fade-up-element">
         <h3 class="h3_section_2">Planning</h3>
+        <?php include 'utile/article_sacha.html'; ?>
       </section>
       <div class="trait fade-up-element"></div>
       <div class="fade-up-element">
