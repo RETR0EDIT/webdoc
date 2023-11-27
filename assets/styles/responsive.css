@@ -1,5 +1,4 @@
 @media (max-width: 1330px) {
-
   .demi-cercle {
     display: none;
   }
@@ -30,17 +29,12 @@
 
   }
 
-
-
-
   .dark-mode footer .content {
     color: #fff !important;
   }
 }
 
 @media (max-width: 930px) {
-
-
   #resume_evenement {
     width: 100%;
   }
@@ -52,8 +46,6 @@
 }
 
 @media (max-width: 768px) {
-
-
   .resumer-txt {
     padding: 0;
   }
@@ -67,7 +59,6 @@
 }
 
 @media (max-width: 300px) {
-
   .nav {
     height: 16vw !important;
   }

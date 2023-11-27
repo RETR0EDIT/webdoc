@@ -113,6 +113,7 @@
 
 .popup {
   width: 40vw;
+  align-items: center;
 }
 
 .popup_scene {
@@ -123,7 +124,7 @@
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -139,21 +140,25 @@
 .popup_lichete {
   display: none;
   position: absolute;
-  top: 34%;
+  top: 29%;
   left: 11%;
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .popup-image {
-  height: 80%;
+  border-radius: 0 20px 20px 0;
+  float: left;
+  shape-outside: margin-box;
+  margin-right: 5%;
+  
 }
 
 .popup_lichete.show {
-  display: block;
+  display: flex;
 }
 
 #place_principal {
@@ -169,7 +174,7 @@
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -194,7 +199,7 @@
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -215,12 +220,16 @@
   z-index: 100;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 2%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .popup_concours.show {
   display: block;
+}
+.popup-image_lichete{
+  width: 30%;
+ 
 }
 
 /* fin section carte */

@@ -42,3 +42,7 @@ p {
 .texte_article{
   padding: 2% 20%;
 }
+.nom{
+  font-style: italic;
+  padding: 2% 20%;
+}

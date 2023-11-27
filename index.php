@@ -171,13 +171,11 @@
           <div id="popup_lichete" class="popup_lichete popup">
             <img src="assets/img/page_1/lichete.png" alt="lichete" class="popup-image_lichete popup-image">
             <p class="translation" data-lang="fr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
-            </p>
+            À l'ombre de la cathédrale de Meaux, quelque chose d'exceptionnel s'est déroulé lors de la récente édition de Brie Happy. Un défi audacieux a été relevé, impliquant la création d'une lichette de Brie de Meaux.
+          </p>
             <!-- anglais -->
             <p class="translation hidden" data-lang="en">
-              inserer texte en anglais
+            In the shadow of Meaux Cathedral, something exceptional happened at the recent Brie Happy event. A daring challenge was taken up, involving the creation of a lichette of Brie de Meaux.
             </p>
           </div>
           <a href="place_principal.php" id="place_principal" class="position"><img
