@@ -222,6 +222,7 @@
 .popup_concours.show {
   display: block;
 }
+
 /* fin section carte */
 
 /*autre*/
@@ -264,4 +265,5 @@ video {
   margin-bottom: -3px;
 
 }
+
 /*fin autre*/
