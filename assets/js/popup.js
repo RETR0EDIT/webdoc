@@ -10,8 +10,6 @@ function addPopupListeners(linkId, popupId) {
     popup.classList.remove("show");
   });
 }
-
-addPopupListeners("scene", "popup_scene");
 addPopupListeners("lichete", "popup_lichete");
 addPopupListeners("musee", "popup_musee");
 addPopupListeners("concours", "popup_concours");

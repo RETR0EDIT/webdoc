@@ -129,7 +129,7 @@
 }
 
 .popup_scene.show {
-  display: block;
+  display: flex;
 }
 
 #lichete {
@@ -179,7 +179,7 @@
 }
 
 .popup_place_principal.show {
-  display: block;
+  display: flex;
 }
 
 .section_carte {
@@ -204,7 +204,7 @@
 }
 
 .popup_musee.show {
-  display: block;
+  display: flex;
 }
 
 #concours {
@@ -225,11 +225,14 @@
 }
 
 .popup_concours.show {
-  display: block;
+  display: flex;
 }
 .popup-image_lichete{
   width: 30%;
  
+}
+.popup-image_musee{
+  width: 50%;
 }
 
 /* fin section carte */

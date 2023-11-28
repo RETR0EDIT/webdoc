@@ -151,21 +151,6 @@
     <section class="section_carte">
       <div class="fade-up-element div_carte">
         <div class="img_container">
-          <a href="scene.php" id="scene" class="position"><img src="assets/img/page_1/position_1.png" alt=""
-              class="img_position">
-          </a>
-          <div id="popup_scene" class="popup_scene popup">
-            <img src="assets/img/page_1/scene.png" alt="scene" class="popup-image_scene popup-image">
-            <p class="translation" data-lang="fr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
-            </p>
-            <!-- anglais -->
-            <p class="translation hidden" data-lang="en">
-              inserer texte en anglais
-            </p>
-          </div>
           <a href="lichete.php" id="lichete" class="position"><img src="assets/img/page_1/position_1.png" alt=""
               class="img_position"></a>
           <div id="popup_lichete" class="popup_lichete popup">
@@ -196,11 +181,9 @@
           <a href="musee.php" id="musee" class="position"><img src="assets/img/page_1/position_2.png" alt=""
               class="img_position"></a>
           <div id="popup_musee" class="popup_musee popup">
-            <img src="assets/img/page_1/musee.png" alt="musee" class="popup-image_musee popup-image">
+            <img src="assets/img/page_1/img_musee.jpg" alt="musee" class="popup-image_musee popup-image">
             <p class="translation" data-lang="fr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+            Plongez au cœur de l'histoire du brie de Meaux. En offrant aux visiteurs une expérience immersive entre tradition et modernité, elle contribue à préserver et à partager la passion qui entoure ce fromage. Une visite à la Maison du Brie de Meaux est une plongée dans l'univers de ce fromage emblématique.
             </p>
             <!-- anglais -->
             <p class="translation hidden" data-lang="en">
