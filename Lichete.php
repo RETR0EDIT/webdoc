@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/responsive.css">
-    <title>lichete</title>
-  </head>
-  <body>
+
   <?php include 'utile/nav.html'; ?>
   <img src="assets/img/page_1/banniere.png" alt="banniere" class="banniere">
     <img src="" alt="" height="100%">

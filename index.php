@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Document</title>
-</head>
-
-<body class="">
-
-
   <div id="translated-texts">
     <header>
       <?php include 'utile/nav.html'; ?>
@@ -169,13 +156,11 @@
             <img src="assets/img/page_1/img_place_principal.jpg" alt="place-principal"
               class="popup-image_place_principal popup-image">
             <p class="translation" data-lang="fr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+            La place principale est l’endroit où se sont réunis plusieurs artisans afin de présenter et vendre leurs produits.
             </p>
             <!-- anglais -->
             <p class="translation hidden" data-lang="en">
-              inserer texte en anglais
+            The main square is where a number of artisans have gathered to showcase and sell their wares.
             </p>
           </div>
           <a href="musee.php" id="musee" class="position"><img src="assets/img/page_1/position_2.png" alt=""
@@ -187,7 +172,7 @@
             </p>
             <!-- anglais -->
             <p class="translation hidden" data-lang="en">
-              inserer texte en anglais
+            Immerse yourself in the history of Brie de Meaux. By offering visitors an immersive experience combining tradition and modernity, it helps to preserve and share the passion that surrounds this cheese. A visit to the Maison du Brie de Meaux is a plunge into the world of this emblematic cheese.
             </p>
           </div>
           <a href="concours.php" id="concours" class="position"><img src="assets/img/page_1/position_2.png" alt=""
@@ -195,13 +180,11 @@
           <div id="popup_concours" class="popup_concours popup">
             <img src="assets/img/page_1/img_concours.jpg" alt="concours" class="popup-image_concours popup-image">
             <p class="translation" data-lang="fr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+            Le musée bossuet a accueilli le concours du meilleur brie de Meaux 2023. Découvrez ce concours en cliquant ici
             </p>
             <!-- anglais -->
             <p class="translation hidden" data-lang="en">
-              inserer texte en anglais
+            The Musée Bossuet hosted the Best Brie de Meaux 2023 competition. Find out more about the competition by clicking here
             </p>
           </div>
           <img src="assets/img/page_1/carte.png" alt="carte" class="carte">
