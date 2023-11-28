@@ -8,52 +8,36 @@
     <title>page-principal</title>
   </head>
   <body>
-    <nav></nav>
+  <?php include 'utile/nav.html'; ?>
     <h1>Place principal</h1>
     <img src="" alt="" height="100%" />
     <section id="instalation"></section>
     <div class="container">
       <h2>Instalation</h2>
       <img src="assets/img/page 1/image_1.png" alt="" class="instal_img1" />
-      <p class="instal_txt">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into Lorem Ipsum is simply dummy text of
-        the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a type specimen
-        book. It has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was
-        popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software
-        like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
+    <p class="instal_txt"></p>
     </div>
 
-    <div class="container">
-      <img src="assets/img/page 1/image_1.png" alt="" class="instal_img2" />
-      <p class="instal_txt">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into Lorem Ipsum is simply dummy text of
-        the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown
-        printer took a galley of type and scrambled it to make a type specimen
-        book. It has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was
-        popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software
-        like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
+<section class="stands">
+    <h2> Les stands</h2>
+
+    <div >
+      <div class="stands_container">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+      <div class="stands_container">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
     </div>
+</section>
 
     <img src="" alt="" width="80%" />
 
-    <footer></footer>
+    <?php include 'utile/footer.html'; ?>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/footer.js"></script>
   </body>

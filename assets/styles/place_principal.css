@@ -2,7 +2,6 @@
   width: 1075px;
   aspect-ratio: 1075 / 443;
   object-fit: cover;
-  float: right;
   shape-outside: margin-box;
   margin: 0 0 5px 20px;
 }
@@ -10,15 +9,6 @@
 .instal_txt {
   padding: 0 10px 0 10px;
   font-size: 25px;
-}
-
-.instal_img2 {
-  width: 1075px;
-  aspect-ratio: 1075 / 443;
-  object-fit: cover;
-  float: left;
-  shape-outside: margin-box;
-  margin: 0 20px 5px 0;
 }
 
 .container {
@@ -32,4 +22,17 @@ video {
 
 img {
   background-color: red;
+}
+.stands_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.stands_container > img {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+
 }
