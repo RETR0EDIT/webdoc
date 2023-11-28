@@ -8,7 +8,8 @@
     <title>Document</title>
   </head>
   <body>
-    <nav></nav>
+  <?php include 'utile/nav.html'; ?>
+  <img src="assets/img/page_1/banniere.png" alt="banniere" class="banniere">
     <section name="carousel">
       <div class="slider2 item-centerer">
         <div

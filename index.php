@@ -73,7 +73,7 @@
         <h3 class="h3_section_2 translation hidden fade-up-element" data-lang="en">
           Antoine Imbault: Event organizer
         </h3>
-        <div class="centre fade-up-element"><video src=""></video></div>
+        <div class="centre fade-up-element"><video controls><source src="assets/video/Interview_arthur_imbault_vfinal.mp4"></video></div>
 
         <div class="fade-up-element">
           <h2 class="h2_section_2 translation" data-lang="fr">

@@ -1,9 +1,5 @@
 .instal_img1 {
-  width: 1075px;
-  aspect-ratio: 1075 / 443;
-  object-fit: cover;
-  shape-outside: margin-box;
-  margin: 0 0 5px 20px;
+width: 100%;
 }
 
 .instal_txt {
@@ -30,9 +26,16 @@ img {
   flex-wrap: nowrap;
 }
 
-.stands_container > img {
+.stands_container > div >div > a > img {
   background-color: blue;
   width: 400px;
   height: 400px;
 
+}
+.stands_container > div > div > p{
+  text-align: center;
+}
+
+.banniere{
+  width: 100%;
 }
