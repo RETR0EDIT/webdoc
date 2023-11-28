@@ -166,7 +166,7 @@
           <a href="place_principal.php" id="place_principal" class="position"><img
               src="assets/img/page_1/position_1.png" alt="" class="img_position"></a>
           <div id="popup_place_principal" class="popup_place_principal popup">
-            <img src="assets/img/page_1/place-principal.png" alt="place-principal"
+            <img src="assets/img/page_1/img_place_principal.jpg" alt="place-principal"
               class="popup-image_place_principal popup-image">
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -193,7 +193,7 @@
           <a href="concours.php" id="concours" class="position"><img src="assets/img/page_1/position_2.png" alt=""
               class="img_position"></a>
           <div id="popup_concours" class="popup_concours popup">
-            <img src="assets/img/page_1/concours.png" alt="concours" class="popup-image_concours popup-image">
+            <img src="assets/img/page_1/img_concours.jpg" alt="concours" class="popup-image_concours popup-image">
             <p class="translation" data-lang="fr">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

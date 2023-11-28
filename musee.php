@@ -3,13 +3,102 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/musee.css">
-    <link rel="stylesheet" href="assets/styles/carousel.css">
     <title>Document</title>
   </head>
   <body>
   <?php include 'utile/nav.html'; ?>
   <img src="assets/img/page_1/banniere.png" alt="banniere" class="banniere">
+  <?php include 'utile/article_erwan.html'; ?>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section name="carousel">
       <div class="slider2 item-centerer">
         <div
@@ -74,5 +163,6 @@
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/footer.js"></script>
+    <?php include 'utile/footer.html'; ?>
   </body>
 </html>

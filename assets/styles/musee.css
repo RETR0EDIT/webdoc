@@ -2,3 +2,46 @@ section {
   text-align: center;
   align-items: center;
 }
+.article_container{
+width: 50%;
+margin: auto;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.article_container > div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.replace{
+  width: 50%;
+}
+.left{
+
+}
+.article_container > div > p{
+  width: 90%;
+  margin: auto;
+
+}
+.article_container > div > img{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.il1{
+  margin-top: 12%!important;
+  margin-bottom: 24%!important;
+}
+
+.tr1{
+  padding-top: 6%;
+}
+.h4r1{
+  padding-top: 23%;
+}
+.il2{
+  margin-bottom: 24%!important;
+}

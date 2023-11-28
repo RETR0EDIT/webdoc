@@ -235,6 +235,13 @@
   width: 50%;
 }
 
+.popup-image_concours{
+  width: 50%;
+}
+.popup-image_place_principal{
+  width: 50%;
+}
+
 /* fin section carte */
 
 /*autre*/
@@ -249,7 +256,7 @@ video {
   margin: auto;
   text-align: center;
   width: 80%;
-  background-color: red;
+
 }
 
 .centre {
