@@ -27,8 +27,7 @@
 }
 
 .slider_content_item2 img {
-  height: 100%;
-  width: 100%;
+  width: 70%;
 }
 
 .slider_nav2 {
@@ -62,7 +61,9 @@
   border: none;
   outline: none;
 }
-
+.carou_musee{
+  margin-top: 10%;
+}
 
 * {
   margin: 0;

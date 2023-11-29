@@ -15,15 +15,15 @@
     <div>
       <div class="stands_container">
         <div><div><a href=""><img src="" alt=""></a></div>
-      <div><p>htgtbgbghth</p></div></div>
+      <div><p> Ludivine Hurand</p></div></div>
       <div><div><a href=""><img src="" alt=""></a></div>
-      <div><p>htgtbgbghth</p></div></div>
+      <div><p>Gaël Radigon</p></div></div>
       <div><div><a href=""><img src="" alt=""></a></div>
-      <div><p>htgtbgbghth</p></div></div>
+      <div><p>Jean-François Deleusale</p></div></div>
       </div>
       <div class="stands_container">
       <div><div><a href=""><img src="" alt=""></a></div>
-      <div><p>htgtbgbghth</p></div></div>
+      <div><p>Mathieu Dannot</p></div></div>
       <div><div><a href=""><img src="" alt=""></a></div>
       <div><p>htgtbgbghth</p></div></div>
       <div><div><a href=""><img src="" alt=""></a></div>
