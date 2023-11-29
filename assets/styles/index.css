@@ -36,6 +36,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+  width: 100%;
 }
 
 #date {
@@ -60,8 +61,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
 }
 
 /* fin section 1 */
@@ -114,6 +113,7 @@
 .popup {
   width: 40vw;
   align-items: center;
+  color: black;
 }
 
 .popup_scene {
@@ -261,6 +261,7 @@ video {
 
 .centre {
   text-align: center;
+  margin: auto              ;
   margin-bottom: -3px;
 }
 
