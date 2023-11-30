@@ -71,8 +71,8 @@
 }
 
 :root {
-  --translateZ: 360px;
-  --faceWidth: 180px;
+  --translateZ: 400px;
+  --faceWidth: 200px;
 }
 
 .carousel-scene {
@@ -96,6 +96,7 @@
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.4s;
+  left: -4.5%;
 }
 
 .button_wrap {

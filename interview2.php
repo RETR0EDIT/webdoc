@@ -5,11 +5,11 @@
 
 <img src="" alt="" width="80%">
 
-<div class="centre fade-up-element iframe">
+<div class="centre iframe">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Rw5GhANGrsM?si=oViGGW4SC-jWhr8D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <audio src=""></audio>
-<p>Description video/audio</p>
+<p class="centre">Description video/audio</p>
 
 
 
@@ -19,10 +19,14 @@
     <section class="carousel">
 
         <div class="face f_01"></div>
-        <div class="face backface back_01"></div>
+        <div class="face backface back_01">
+            <img src="assets/img/place/interview/rhum1.png" alt="" width="100%" height="100%" class="img_carou_3d">
+        </div>
 
         <div class="face f_02"></div>
-        <div class="face backface back_02"></div>
+        <div class="face backface back_02">
+        <img src="assets/img/place/interview/rhum2.png" alt="" width="100%" height="100%" class="img_carou_3d">
+        </div>
 
         <div class="face f_03"></div>
         <div class="face backface back_03"></div>

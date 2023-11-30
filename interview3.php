@@ -1,14 +1,10 @@
 <?php include 'utile/nav.html'; ?>
 
-<h1>XXX</h1>
-
-<img src="" alt="" width="80%">
-
-<div class="centre fade-up-element iframe">
+<div class="centre iframe">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/By5jCEekUf0?si=L5VzNrD4vNMs5PTR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <audio src=""></audio>
-<p>Description video/audio</p>
+<p class="centre">Description video/audio</p>
 
 
 
