@@ -61,8 +61,11 @@
       <h3 class="h3_section_2 translation hidden fade-up-element" data-lang="en">
         Antoine Imbault: Event organizer
       </h3>
-      <div class="centre fade-up-element"><video controls
-          src="assets/video/Interview_arthur_imbault_vfinal.mp4"></video></div>
+      <div class="centre fade-up-element iframe"><iframe width="100%" height="100%"
+          src="https://www.youtube.com/embed/El4UXRpqh-s?si=SH59lLnJBNUUqoNP" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe></div>
 
       <div class="fade-up-element">
         <h2 class="h2_section_2 translation" data-lang="fr">

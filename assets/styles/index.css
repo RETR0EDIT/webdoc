@@ -81,7 +81,10 @@
   margin: auto;
   text-align: justify;
 }
-
+.iframe{
+  width: 80%;
+  aspect-ratio: 16/9;
+}
 /* fin section 2 */
 
 /* section carte */

@@ -7,27 +7,38 @@ width: 100%;
   font-size: 25px;
 }
 
-.container {
+.container_title {
   margin: 50px 30px 50px 30px;
   padding: 20px 0 20px 0;
+}
+.container_title > h2 {
+  font-size: 2rem;
 }
 .stands_container{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .stands_container > div >div > a > img {
-  background-color: blue;
+  aspect-ratio: 1/1;
   width: 400px;
   height: 400px;
+  object-fit: cover;
 
 }
 .stands_container > div > div > p{
   text-align: center;
+  font-size: 14px;
 }
 
 .banniere{
   width: 100%;
+}
+.stands_container > div {
+  margin-top: 5%;
+}
+.stands > h2 {
+  font-size: 2rem;
 }
