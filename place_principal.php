@@ -4,7 +4,7 @@
 <section id="instalation"></section>
 <div class="container_title">
   <h2>Instalation</h2>
-  <img src="assets/img/page 1/image_1.png" alt="" class="instal_img1" />
+  <img src="assets/img/page_1/img_place_principal.png" alt="" class="instal_img1" id="fin"/>
   <p class="instal_txt"></p>
 </div>
 

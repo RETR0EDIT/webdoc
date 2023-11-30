@@ -57,3 +57,7 @@
 .button-wrap{
   padding-top: 40%;
 }
+#fin{
+  height: 80%;
+  object-fit: cover;
+}
