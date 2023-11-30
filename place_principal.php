@@ -48,7 +48,7 @@
       <div>
         <div><a href="interview6.php"><img src="assets/img/place/andre.png" alt=""></a></div>
         <div>
-          <p>André WACHENHEIM - Confrérie du Brie de Meaux </p>
+          <p>André Wachenheim  - Confrérie du Brie de Meaux </p>
         </div>
       </div>
     </div>

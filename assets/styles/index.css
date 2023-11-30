@@ -83,6 +83,8 @@
 .iframe {
   width: 80%;
   aspect-ratio: 16/9;
+  margin-top: 10%!important;
+  margin-bottom: 2%!important;
 }
 /* fin section 2 */
 

@@ -76,9 +76,9 @@
 }
 
 .carousel-scene {
-  top: 20%;
+
   position: absolute;
-  top: 20%;
+  top: 75vw;
   left: 50%;
   transform: translateX(-50%);
   width: 180px;

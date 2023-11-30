@@ -41,3 +41,19 @@
 .stands > h2 {
   font-size: 2rem;
 }
+.img_carou_3d{
+  background-color: blue;
+  object-fit: cover;
+}
+
+.avs{
+  position: absolute;
+  left: 50%;
+  border: 1px solid white;
+  height: 1080px;
+  top: 0;
+}
+
+.button-wrap{
+  padding-top: 40%;
+}
