@@ -2,7 +2,6 @@
   border: 1.5px solid #fff;
 }
 
-
 .dark-mode #nuit {
   position: absolute;
   top: -6px;
@@ -32,7 +31,7 @@ body.dark-mode {
   height: 40px;
 }
 
-.dark-mode>.fenetre-chatbot {
+.dark-mode > .fenetre-chatbot {
   background-color: #00000091;
 }
 
@@ -52,11 +51,11 @@ body.dark-mode {
 }
 
 .dark-mode .chat-personne-fr {
-  background-color: #4CAF50 !important;
+  background-color: #4caf50 !important;
 }
 
 .dark-mode .chat-personne-en {
-  background-color: #4CAF50 !important;
+  background-color: #4caf50 !important;
 }
 
 .dark-mode footer .demi-cercle .svg {

@@ -52,31 +52,81 @@ footer .waves .wave__box {
 footer .waves .wave__box--1 {
   height: 22vw;
   border-radius: 200px 350px 0px 0px;
-  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
+  background: linear-gradient(
+    0deg,
+    #00c3ff,
+    #59d8ff,
+    #7ee1ff,
+    #b4edff,
+    #aadceb,
+    #fff,
+    #fff,
+    #fff
+  );
 }
 
 footer .waves .wave__box--2 {
   height: 15vw;
   border-radius: 250px 200px 0px 0px;
-  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
+  background: linear-gradient(
+    0deg,
+    #00c3ff,
+    #59d8ff,
+    #7ee1ff,
+    #b4edff,
+    #aadceb,
+    #fff,
+    #fff,
+    #fff
+  );
 }
 
 footer .waves .wave__box--3 {
   height: 20vw;
   border-radius: 500px 200px 0px 0px;
-  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
+  background: linear-gradient(
+    0deg,
+    #00c3ff,
+    #59d8ff,
+    #7ee1ff,
+    #b4edff,
+    #aadceb,
+    #fff,
+    #fff,
+    #fff
+  );
 }
 
 footer .waves .wave__box--4 {
   height: 25vw;
   border-radius: 5350px 3000px 0px 0px;
-  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
+  background: linear-gradient(
+    0deg,
+    #00c3ff,
+    #59d8ff,
+    #7ee1ff,
+    #b4edff,
+    #aadceb,
+    #fff,
+    #fff,
+    #fff
+  );
 }
 
 footer .waves .wave__box--5 {
   height: 28vw;
   border-radius: 400px 200px 0px 0px;
-  background: linear-gradient(0deg, #00c3ff, #59d8ff, #7ee1ff, #b4edff, #aadceb, #fff, #fff, #fff);
+  background: linear-gradient(
+    0deg,
+    #00c3ff,
+    #59d8ff,
+    #7ee1ff,
+    #b4edff,
+    #aadceb,
+    #fff,
+    #fff,
+    #fff
+  );
 }
 
 @keyframes wave {
@@ -92,7 +142,6 @@ footer .waves .wave__box--5 {
     transform: translateX(-20%);
   }
 }
-
 
 .svg {
   height: 758px;

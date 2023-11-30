@@ -1,5 +1,5 @@
 .instal_img1 {
-width: 100%;
+  width: 100%;
 }
 
 .instal_txt {
@@ -14,26 +14,25 @@ width: 100%;
 .container_title > h2 {
   font-size: 2rem;
 }
-.stands_container{
+.stands_container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.stands_container > div >div > a > img {
+.stands_container > div > div > a > img {
   aspect-ratio: 1/1;
   width: 400px;
   height: 400px;
   object-fit: cover;
-
 }
-.stands_container > div > div > p{
+.stands_container > div > div > p {
   text-align: center;
   font-size: 14px;
 }
 
-.banniere{
+.banniere {
   width: 100%;
 }
 .stands_container > div {

@@ -6,11 +6,11 @@
   <div class="slider2 item-centerer">
     <div class="slider_content2" data-aos="fade-left" data-aos-duration="1000">
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/1.jpg" alt="1">
+        <img src="assets/img/musee/carou/1.jpg" alt="1">
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/2.jpg" alt="2">
+        <img src="assets/img/musee/carou/2.jpg" alt="2">
 
       </div>
       <div class="slider_content_item2">
@@ -18,23 +18,23 @@
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/4.jpg" alt="4">
+        <img src="assets/img/musee/carou/4.jpg" alt="4">
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/5.jpg" alt="5">
+        <img src="assets/img/musee/carou/5.jpg" alt="5">
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/6.jpg" alt="6">
+        <img src="assets/img/musee/carou/6.jpg" alt="6">
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/7.jpg" alt="7">
+        <img src="assets/img/musee/carou/7.jpg" alt="7">
 
       </div>
       <div class="slider_content_item2">
-      <img src="assets/img/musee/carou/8.jpg" alt="8">
+        <img src="assets/img/musee/carou/8.jpg" alt="8">
 
       </div>
     </div>

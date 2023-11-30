@@ -8,7 +8,6 @@
   width: 60%;
   margin: auto;
   color: #fff;
-
 }
 
 .ntm {
@@ -31,7 +30,7 @@
 }
 
 #partie_1 {
-  background-image: url('../img/page_1/img_fond_partie_1.jpg');
+  background-image: url("../img/page_1/img_fond_partie_1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +43,7 @@
 }
 
 .image_1 {
-  padding-top: 15%;
+  padding-top: 40%;
   width: 70%;
 }
 
@@ -52,7 +51,7 @@
   color: #fff !important;
   text-align: center;
   margin: auto;
-  padding: 5% 0 10% 0;
+  padding: 5% 0 30% 0;
 }
 
 .resumer {
@@ -81,7 +80,7 @@
   margin: auto;
   text-align: justify;
 }
-.iframe{
+.iframe {
   width: 80%;
   aspect-ratio: 16/9;
 }
@@ -157,7 +156,6 @@
   float: left;
   shape-outside: margin-box;
   margin-right: 5%;
-  
 }
 
 .popup_lichete.show {
@@ -230,18 +228,17 @@
 .popup_concours.show {
   display: flex;
 }
-.popup-image_lichete{
+.popup-image_lichete {
   width: 30%;
- 
 }
-.popup-image_musee{
+.popup-image_musee {
   width: 50%;
 }
 
-.popup-image_concours{
+.popup-image_concours {
   width: 50%;
 }
-.popup-image_place_principal{
+.popup-image_place_principal {
   width: 50%;
 }
 
@@ -259,12 +256,11 @@ video {
   margin: auto;
   text-align: center;
   width: 80%;
-
 }
 
 .centre {
   text-align: center;
-  margin: auto              ;
+  margin: auto;
   margin-bottom: -3px;
 }
 
@@ -286,7 +282,6 @@ video {
   width: 100%;
   height: auto;
   margin-bottom: -3px;
-
 }
 
 /*fin autre*/
