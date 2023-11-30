@@ -42,7 +42,7 @@
       <div>
         <div><a href="interview5.php"><img src="assets/img/place/Antonin.png" alt=""></a></div>
         <div>
-          <p>Antonin</p>
+          <p>Antonin - Distillerie d'Isle de France</p>
         </div>
       </div>
       <div>

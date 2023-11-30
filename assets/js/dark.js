@@ -49,10 +49,9 @@ switchInput.addEventListener("change", () => {
   }
 });
 
-
 let prevScrollPos = window.pageYOffset;
 
-window.onscroll = function() {
+window.onscroll = function () {
   let currentScrollPos = window.pageYOffset;
 
   if (prevScrollPos > currentScrollPos) {
@@ -62,7 +61,4 @@ window.onscroll = function() {
   }
 
   prevScrollPos = currentScrollPos;
-}
-
-
-
+};
