@@ -56,3 +56,16 @@ p {
 body {
   background-color: #e1e1c3;
 }
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+.flex > div{
+width: 50%;
+}
+.flex > div > img{
+  margin-left: 3%;
+  }
