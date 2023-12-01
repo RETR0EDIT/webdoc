@@ -5,33 +5,6 @@
 </div>
 <audio src=""></audio>
 <p class="centre">Description video/audio</p>
-
-
-
-
-<section class="carousel-scene">
-
-    <section class="carousel">
-
-        <div class="face f_01"></div>
-        <div class="face backface back_01"></div>
-
-        <div class="face f_02"></div>
-        <div class="face backface back_02"></div>
-
-        <div class="face f_03"></div>
-        <div class="face backface back_03"></div>
-
-    </section>
-</section>
-
-<section class="button-wrap">
-    <button class="button " id="prev">◄</button>
-    <button class="button " id="next">►</button>
-</section>
-
-
-
 <?php include 'utile/footer.html'; ?>
 <script src="assets/js/carousel.js"></script>
 </body>
