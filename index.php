@@ -54,11 +54,7 @@
       <h3 class="h3_section_2 translation hidden fade-up-element" data-lang="en">
         Antoine Imbault: Event organizer
       </h3>
-      <div class="centre fade-up-element iframe"><iframe width="100%" height="100%"
-          src="https://www.youtube.com/embed/LzMmx1EpH6A?si=arSVN_r6m991uhga" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe></div>
+      <div class="centre fade-up-element iframe"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/LzMmx1EpH6A?si=arSVN_r6m991uhga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
       <div class="fade-up-element">
         <h2 class="h2_section_2 translation" data-lang="fr">
@@ -145,19 +141,63 @@
           Video text/speech
         </h2>
         <p class="description_video translation" data-lang="fr">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s
-          with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          Jean-François Copé Je suis maire de Meaux.
+          <br>
+          <br>
+          Vous savez, c'est un événement qui est très ancien.
+          On a mis en place depuis de nombreuses années.
+          Parce que quand on travaille au développement d'une ville
+          , il faut s'occuper de son identité, de son histoire et de sa tradition.
+
+          <br>
+          <br>
+          Et on a la chance à Meaux d'avoir le fromage
+          le plus connu au monde qu'est le Brie, le brie
+          de Meaux. Et donc, depuis des années et des années,
+           nous avons cette confrérie avec des Meldois passionnés
+            qui adorent la gastronomie, qui adorent le brie et qui
+             sont chargés de faire la promotion un peu partout en
+             France et dans le monde du brie de Meaux.
+          <br>
+          <br>
+          On a ici derrière moi le musée du Brie de Meaux qu'on
+          a installé et dans le même temps, on a une confrérie qui
+           organise régulièrement des concours des meilleurs affineur
+           de fromage de Brie.
+          <br>
+          <br>
+          Oui, absolument. C'est normal. Jusqu'à quand On est maire de Meaux, on est obligé d'aimer Brie de Meaux.
+
         </p>
         <!-- anglais -->
         <p class="description_video translation hidden" data-lang="en">
-          inserer texte en anglais
+        Jean-François Copé I'm Mayor of Meaux.
+          <br>
+          <br>
+          You know, this is a very old event.
+          We set it up many years ago.
+          Because when you're working on the development of a city
+          you have to take care of its identity, its history and its traditions.          
+
+          <br>
+          <br>
+          And in Meaux we are lucky enough to have the most famous cheese in the world - Brie.
+          most famous cheese in the world, Brie de Meaux.
+          de Meaux. And so, for years and years,
+           we've had this brotherhood of passionate Meldois
+            who love gastronomy, who love Brie and who
+             who are responsible for promoting Brie throughout France
+             France and around the world.
+          <br>
+          <br>
+          Behind me is the Brie de Meaux museum, which we've set up.
+          and at the same time, we have a brotherhood that regularly
+           regularly organises competitions for the best Brie cheese
+           of Brie cheese.
+          <br>
+          <br>
+          
+          Yes, absolutely. That's normal. Until you become mayor of Meaux, you're obliged to love Brie de Meaux.
         </p>
       </div>
     </div>
@@ -173,8 +213,7 @@
   <section class="section_carte">
     <div class="fade-up-element div_carte">
       <div class="img_container">
-        <a href="lichete.php" id="lichete" class="position"><img src="assets/img/page_1/position_1.png" alt=""
-            class="img_position"></a>
+        <a href="lichete.php" id="lichete" class="position"><img src="assets/img/page_1/position_1.png" alt="" class="img_position"></a>
         <div id="popup_lichete" class="popup_lichete popup">
           <img src="assets/img/page_1/lichete.png" alt="lichete" class="popup-image_lichete popup-image">
           <p class="translation" data-lang="fr">
@@ -187,11 +226,9 @@
             challenge was taken up, involving the creation of a lichette of Brie de Meaux.
           </p>
         </div>
-        <a href="place_principal.php" id="place_principal" class="position"><img src="assets/img/page_1/position_1.png"
-            alt="" class="img_position"></a>
+        <a href="place_principal.php" id="place_principal" class="position"><img src="assets/img/page_1/position_1.png" alt="" class="img_position"></a>
         <div id="popup_place_principal" class="popup_place_principal popup">
-          <img src="assets/img/page_1/img_place_principal.jpg" alt="place-principal"
-            class="popup-image_place_principal popup-image">
+          <img src="assets/img/page_1/img_place_principal.jpg" alt="place-principal" class="popup-image_place_principal popup-image">
           <p class="translation" data-lang="fr">
             La place principale est l’endroit où se sont réunis plusieurs artisans afin de présenter et vendre leurs
             produits.
@@ -201,8 +238,7 @@
             The main square is where a number of artisans have gathered to showcase and sell their wares.
           </p>
         </div>
-        <a href="musee.php" id="musee" class="position"><img src="assets/img/page_1/position_2.png" alt=""
-            class="img_position"></a>
+        <a href="musee.php" id="musee" class="position"><img src="assets/img/page_1/position_2.png" alt="" class="img_position"></a>
         <div id="popup_musee" class="popup_musee popup">
           <img src="assets/img/page_1/img_musee.jpg" alt="musee" class="popup-image_musee popup-image">
           <p class="translation" data-lang="fr">
@@ -217,8 +253,7 @@
             the Maison du Brie de Meaux is a plunge into the world of this emblematic cheese.
           </p>
         </div>
-        <a href="concours.php" id="concours" class="position"><img src="assets/img/page_1/position_2.png" alt=""
-            class="img_position"></a>
+        <a href="concours.php" id="concours" class="position"><img src="assets/img/page_1/position_2.png" alt="" class="img_position"></a>
         <div id="popup_concours" class="popup_concours popup">
           <img src="assets/img/page_1/img_concours.jpg" alt="concours" class="popup-image_concours popup-image">
           <p class="translation" data-lang="fr">
@@ -236,8 +271,7 @@
     </div>
   </section>
 </div>
-<button id="vibratingButton" class="bouton-chat" onclick="test()"><img src="assets/img/bot/fromage_bot.png"
-    alt=""></button>
+<button id="vibratingButton" class="bouton-chat" onclick="test()"><img src="assets/img/bot/fromage_bot.png" alt=""></button>
 <div id="fenetreChatbot" class="fenetre-chatbot">
   <div class="chatbot-header">
     <span class="fermer" onclick="fermerFenetreChatbot()">&times;</span>
