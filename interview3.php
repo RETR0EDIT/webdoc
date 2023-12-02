@@ -7,7 +7,6 @@
         allowfullscreen></iframe>
 </div>
 <audio src=""></audio>
-<p class="centre">Description video/audio</p>
 <?php include 'utile/footer.html'; ?>
 <script src="assets/js/carousel.js"></script>
 </body>

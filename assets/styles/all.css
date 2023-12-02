@@ -52,6 +52,11 @@ p {
 .texte_article {
   padding: 2% 20%;
 }
+.texte_article2 {
+  margin: auto;
+  width: 50%;
+  padding-top: 2%;
+}
 
 .nom {
   font-style: italic;
@@ -72,8 +77,13 @@ body {
 
 .flex>div {
   width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .flex>div>img {
-  margin-left: 3%;
+
+}
+.w90{
+  width: 90%;
 }
