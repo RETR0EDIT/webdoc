@@ -14,7 +14,7 @@
 
       </div>
       <div class="slider_content_item2">
-        <<img src="assets/img/musee/carou/3.jpg" alt="3">
+        <img src="assets/img/musee/carou/3.jpg" alt="3">
 
       </div>
       <div class="slider_content_item2">

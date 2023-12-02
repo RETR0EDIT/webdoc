@@ -228,12 +228,21 @@
 }
 
 #fr .en {
-  display: none;
+  display: none!important;
 }
 
 #en .fr {
-  display: none;
+  display: none!important;
 }
+
+.fr > .en {
+  display: none!important;
+}
+
+.en  > .fr {
+  display: none!important;
+}
+
 
 /* fin anglais/francais*/
 .chatbot-corps {
@@ -243,7 +252,7 @@
 #ball-container {
   display: flex;
   position: absolute;
-  bottom: 140px;
+  bottom: 150px;
   left: 13%;
   transform: translate(-50%, -50%);
 }
@@ -371,4 +380,7 @@
   to {
     right: 3px;
   }
+}
+.message > p {
+  font-size: 12px;
 }

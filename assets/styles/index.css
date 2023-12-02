@@ -273,7 +273,7 @@ video {
 }
 
 .hidden {
-  display: none;
+  display: none!important;
 }
 
 .fade-up-element {

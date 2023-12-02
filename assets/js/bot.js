@@ -95,7 +95,7 @@ function question_1() {
   afficherMessageAvecDelai("What is Brie de Meaux?", "en");
 
   var ballContainer = document.getElementById("ball-container");
-  ballContainer.classList.remove("none"); // Ajoutez cette ligne pour afficher l'élément
+  ballContainer.classList.remove("none");
   setTimeout(function () {
     afficherMessageAvecDelai(
       "The Brie de Meaux is a raw milk cheese whose designation of origin has been commercially preserved through an AOC (Appellation d'Origine Contrôlée) since 1980. Its name originates from the Brie region and the town of Meaux in France.",
@@ -110,7 +110,7 @@ function question_1() {
       3000
     );
     setTimeout(function () {
-      ballContainer.classList.add("none"); // Ajoutez cette ligne pour masquer l'élément après le délai
+      ballContainer.classList.add("none");
     }, 3000);
   });
 }
@@ -118,7 +118,7 @@ function question_2() {
   afficherMessageAvecDelai("Comment est-il fabriqué", "fr");
   afficherMessageAvecDelai("How is it made?", "en");
   var ballContainer = document.getElementById("ball-container");
-  ballContainer.classList.remove("none"); // Ajoutez cette ligne pour afficher l'élément
+  ballContainer.classList.remove("none");
   setTimeout(function () {
     afficherMessageAvecDelai(
       "It is made with 25 liters of raw cow's milk for a whole cheese weighing approximately 3.5 kg. After partial skimming at 40°C, the milk is coagulated with rennet of bovine origin only. Then, the curdling process takes place at a temperature lower or equal to 37°C.",
@@ -133,7 +133,7 @@ function question_2() {
       3000
     );
     setTimeout(function () {
-      ballContainer.classList.add("none"); // Ajoutez cette ligne pour masquer l'élément après le délai
+      ballContainer.classList.add("none"); 
     }, 3000);
   });
 }
@@ -142,7 +142,7 @@ function question_3() {
   afficherMessageAvecDelai("Où est produit le brie de Meaux", "fr");
   afficherMessageAvecDelai("Where is Brie de Meaux produced?", "en");
   var ballContainer = document.getElementById("ball-container");
-  ballContainer.classList.remove("none"); // Ajoutez cette ligne pour afficher l'élément
+  ballContainer.classList.remove("none");
   setTimeout(function () {
     afficherMessageAvecDelai(
       "Today, the production area of Brie de Meaux covers the entire eastern part of the Paris Basin, including the Seine-et-Marne department and parts of the Yonne, Aube, Marne, Meuse, and Haute-Marne departments.",
@@ -157,7 +157,7 @@ function question_3() {
       3000
     );
     setTimeout(function () {
-      ballContainer.classList.add("none"); // Ajoutez cette ligne pour masquer l'élément après le délai
+      ballContainer.classList.add("none"); 
     }, 3000);
   });
 }
@@ -166,7 +166,7 @@ function question_4() {
   afficherMessageAvecDelai("Qu'est-ce que le brie de Meaux", "fr");
   afficherMessageAvecDelai("How long has Brie de Meaux been around?", "en");
   var ballContainer = document.getElementById("ball-container");
-  ballContainer.classList.remove("none"); // Ajoutez cette ligne pour afficher l'élément
+  ballContainer.classList.remove("none");
   setTimeout(function () {
     afficherMessageAvecDelai(
       "It is presumed that the history of Brie originated in the Abbey of Jouarre, founded in the 7th century.",
@@ -181,7 +181,7 @@ function question_4() {
       3000
     );
     setTimeout(function () {
-      ballContainer.classList.add("none"); // Ajoutez cette ligne pour masquer l'élément après le délai
+      ballContainer.classList.add("none");
     }, 3000);
   });
 }
