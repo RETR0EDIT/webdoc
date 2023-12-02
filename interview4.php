@@ -18,7 +18,7 @@
         </div>
         <div class="face f_03"></div>
         <div class="face backface back_03">
-            <img src="assets/img/place/interview/3.jpg" alt="" width="100%" height="100%" class="img_carou_3d">
+            <img src="assets/img/place/interview/1.jpg" alt="" width="100%" height="100%" class="img_carou_3d">
         </div>
     </section>
 </section>

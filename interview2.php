@@ -18,7 +18,7 @@
             <img src="assets/img/place/interview/rhum2.png" alt="" width="100%" height="100%" class="img_carou_3d">
         </div>
         <div class="face f_03"></div>
-        <div class="face backface back_03"></div>
+        <div class="face backface back_03"><img src="assets/img/place/interview/rhum2.png" alt="" width="100%" height="100%" class="img_carou_3d"></div>
     </section>
 </section>
 <section class="button-wrap">
