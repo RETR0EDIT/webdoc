@@ -4,7 +4,7 @@
 <section id="instalation">
 
 
-
+<?php include 'utile/article_nolan.html' ?>
   <?php include 'utile/footer.html' ?>
   <script src="assets/js/translate.js"></script>
   <script src="assets/js/fade-up.js"></script>

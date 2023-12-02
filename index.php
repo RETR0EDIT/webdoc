@@ -131,7 +131,7 @@
       <h3 class="h3_section_2 translation hidden" data-lang="en">
         Jean-François COPÉ : Mayor of Meaux
       </h3>
-      <div class="centre"><video src=""></video></div>
+      <div class="centre iframe"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/GbfxJnIYsNE?si=7CctvuMA64hIVJcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <div>
         <h2 class="h2_section_2 translation" data-lang="fr">
           Texte/parole de la vidéo
