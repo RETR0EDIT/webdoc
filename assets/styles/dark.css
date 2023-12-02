@@ -31,7 +31,7 @@ body.dark-mode {
   height: 40px;
 }
 
-.dark-mode > .fenetre-chatbot {
+.dark-mode>.fenetre-chatbot {
   background-color: #00000091;
 }
 

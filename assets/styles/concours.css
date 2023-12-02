@@ -5,34 +5,34 @@
 }
 
 .widht80 {
-    
+
   width: 80% !important;
   margin: auto;
 }
 
-.widht80 > p {
+.widht80>p {
   padding-top: 2%;
   width: 80%;
   margin: auto;
 }
 
-.widht80 > h2 {
+.widht80>h2 {
   margin-top: 4%;
   margin-bottom: 2%;
 }
 
-.widht80 > h3 {
+.widht80>h3 {
   margin-top: 2%;
 }
 
-.widht80 > div > p {
+.widht80>div>p {
   padding-left: 10%;
 }
 
-audio{
-  margin: 5% 0!important;
+audio {
+  margin: 5% 0 !important;
 }
 
-.padding{
+.padding {
   padding-top: 2%;
 }

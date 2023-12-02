@@ -11,9 +11,11 @@
   margin: 50px 30px 50px 30px;
   padding: 20px 0 20px 0;
 }
-.container_title > h2 {
+
+.container_title>h2 {
   font-size: 2rem;
 }
+
 .stands_container {
   display: flex;
   align-items: center;
@@ -21,13 +23,14 @@
   flex-wrap: wrap;
 }
 
-.stands_container > div > div > a > img {
+.stands_container>div>div>a>img {
   aspect-ratio: 1/1;
   width: 400px;
   height: 400px;
   object-fit: cover;
 }
-.stands_container > div > div > p {
+
+.stands_container>div>div>p {
   text-align: center;
   font-size: 14px;
 }
@@ -35,18 +38,21 @@
 .banniere {
   width: 100%;
 }
-.stands_container > div {
+
+.stands_container>div {
   margin-top: 5%;
 }
-.stands > h2 {
+
+.stands>h2 {
   font-size: 2rem;
 }
-.img_carou_3d{
+
+.img_carou_3d {
   background-color: blue;
   object-fit: cover;
 }
 
-.avs{
+.avs {
   position: absolute;
   left: 50%;
   border: 1px solid white;
@@ -54,11 +60,12 @@
   top: 0;
 }
 
-.button-wrap{
+.button-wrap {
   padding-top: 40%;
   padding-bottom: 20%;
 }
-#fin{
+
+#fin {
   height: 80%;
   object-fit: cover;
 }

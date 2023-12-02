@@ -80,13 +80,15 @@
   margin: auto;
   text-align: justify;
 }
+
 .iframe {
   width: 80%;
   aspect-ratio: 16/9;
-  margin-top: 10%!important;
-  margin-bottom: 2%!important;
+  margin-top: 10% !important;
+  margin-bottom: 2% !important;
   border: none;
 }
+
 /* fin section 2 */
 
 /* section carte */
@@ -231,9 +233,11 @@
 .popup_concours.show {
   display: flex;
 }
+
 .popup-image_lichete {
   width: 30%;
 }
+
 .popup-image_musee {
   width: 50%;
 }
@@ -241,6 +245,7 @@
 .popup-image_concours {
   width: 50%;
 }
+
 .popup-image_place_principal {
   width: 50%;
 }

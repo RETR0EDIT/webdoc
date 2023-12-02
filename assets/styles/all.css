@@ -20,10 +20,12 @@ h4 {
 
   margin: auto;
 }
-h1{
+
+h1 {
   font-size: 4vw;
   text-align: center;
 }
+
 p {
   font-size: 1.2vw;
   text-align: justify;
@@ -59,16 +61,19 @@ p {
 body {
   background-color: #e1e1c3;
 }
-.flex{
+
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50%;
   margin: auto;
 }
-.flex > div{
-width: 50%;
+
+.flex>div {
+  width: 50%;
 }
-.flex > div > img{
+
+.flex>div>img {
   margin-left: 3%;
-  }
+}
