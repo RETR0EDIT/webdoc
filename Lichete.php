@@ -5,12 +5,12 @@
   <h2>
     instalation
   </h2>
-  <p class="texte_article">
+  <p class="texte_article translation" data-lang="fr">
     Il est 9h du matin le samedi 13 octobre 2023 et tout est encore calme sur la place de la cathédrale lors de l'installation.
     Tous les artisans mettent en place leur stand et s'apprêtent à accueillir la foule. Vers 11 h les visiteurs ont commencés à arriver.
 
   </p>
-  <p class="texte_article" data-lang="en">
+  <p class="texte_article translation" data-lang="en">
   It's 9 a.m. on Saturday 13 October 2023 and it's still quiet in the cathedral square.
     All the artisans were setting up their stands and getting ready to welcome the crowds. Around 11 a.m. the visitors started to arrive.
 

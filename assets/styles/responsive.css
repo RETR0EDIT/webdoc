@@ -125,3 +125,23 @@
     height: 67px !important;
   }
 }
+@media (max-width: 480px) {
+  .texte_article {
+    padding: 2%!important;
+}
+.flex{
+  width: 100%!important;
+}
+p{
+  font-size: 2vw!important;
+}
+h3 {
+  font-size: 2.2vw!important;
+}
+.article_container {
+  width: 100%!important;
+}
+.popup {
+  width: 50vw!important;
+}
+}
