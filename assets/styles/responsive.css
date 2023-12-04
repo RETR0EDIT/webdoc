@@ -94,7 +94,9 @@
     --translateZ: 290px !important;
     --faceWidth: 150px !important;
   }
-
+.carousel{
+  left: 0!important;
+}
   .carousel_scene {
     width: 150px !important;
 

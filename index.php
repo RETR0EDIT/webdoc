@@ -12,19 +12,19 @@
   <section id="partie_1" class="fade-up-element">
     <div class="resumer fade-up-element">
       <div class="resumer_txt fade-up-element">
-        <h2 class="translation  ntm" data-lang="fr">Résumer Évènement</h2>
+        <h2 class="translation  ntm" data-lang="fr">Résumé Évènement</h2>
         <!-- anglais -->
-        <h2 class="translation hidden ntm" data-lang="en">Event summary</h2>
+        <h2 class="translation  ntm" data-lang="en">Event summary</h2>
 
 
         <br>
         <br>
         <p class="texte translation" data-lang="fr">
           Bienvenue sur le web documentaire du festival BRIE HAPPY 2023 ! Ici vous allez découvir le Brie de Meaux dans
-          toute sa splendeur, nombreux produits régionnaux et toute les activités de cet évènement !
+          toute sa splendeur, nombreux produits régionaux et toute les activités de cet évènement !
         </p>
         <!-- anglais -->
-        <p class="texte translation hidden" data-lang="en">
+        <p class="texte translation " data-lang="en">
           Welcome to the BRIE HAPPY 2023 festival web documentary! Here you'll discover Brie de Meaux in all its
           splendour, a host of regional products and all the activities taking place during the event!
         </p>
@@ -35,7 +35,7 @@
           Des membres de la confrérie du brie de Meaux lors de l’événement Brie Happy
         </p>
         <!-- anglais -->
-        <p class="description translation hidden" data-lang="en">
+        <p class="description translation " data-lang="en">
 
           Members of the Meaux brie brotherhood during the Brie Happy event
         </p>
@@ -51,7 +51,7 @@
         Antoine Imbault : Organisateur de l’évènement
       </h3>
       <!-- anglais -->
-      <h3 class="h3_section_2 translation hidden fade-up-element" data-lang="en">
+      <h3 class="h3_section_2 translation  fade-up-element" data-lang="en">
         Antoine Imbault: Event organizer
       </h3>
       <div class="centre fade-up-element iframe"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/LzMmx1EpH6A?si=arSVN_r6m991uhga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -60,7 +60,7 @@
         <h2 class="h2_section_2 translation" data-lang="fr">
           Texte/parole de la vidéo
         </h2>
-        <h2 class="h2_section_2 translation hidden" data-lang="en">
+        <h2 class="h2_section_2 translation " data-lang="en">
           Video text/speech
         </h2>
         <p class="description_video translation" data-lang="fr">
@@ -89,7 +89,7 @@
           l'Office de Tourisme, on se voit régulièrement. Je pense à peu près tous les 2 mois jusqu'au dernier moment.
         </p>
         <!-- anglais -->
-        <p class="description_video translation hidden" data-lang="en">
+        <p class="description_video translation " data-lang="en">
           Hello, I'm Antoine, the manager of the company called "En Cuisine." We have been assisting the Tourist
           Office and the City of Meaux in organizing Brie Happy for the past 3 years. The event started in September
           2021, and we are now in the third edition. The goal was to promote Brie de Meaux, allowing it to shine
@@ -128,7 +128,7 @@
         Jean-François COPÉ : Maire de la ville de Meaux
       </h3>
       <!-- anglais -->
-      <h3 class="h3_section_2 translation hidden" data-lang="en">
+      <h3 class="h3_section_2 translation " data-lang="en">
         Jean-François COPÉ : Mayor of Meaux
       </h3>
       <div class="centre iframe"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/GbfxJnIYsNE?si=7CctvuMA64hIVJcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -137,7 +137,7 @@
           Texte/parole de la vidéo
         </h2>
         <!-- anglais -->
-        <h2 class="h2_section_2 translation hidden" data-lang="en">
+        <h2 class="h2_section_2 translation " data-lang="en">
           Video text/speech
         </h2>
         <p class="description_video translation" data-lang="fr">
@@ -170,7 +170,7 @@
 
         </p>
         <!-- anglais -->
-        <p class="description_video translation hidden" data-lang="en">
+        <p class="description_video translation " data-lang="en">
         Jean-François Copé I'm Mayor of Meaux.
           <br>
           <br>
@@ -207,7 +207,7 @@
 
   <h2 class="h2_section_2 translation" data-lang="fr">Carte intéractive</h2>
   <!-- anglais -->
-  <h2 class="h2_section_2 translation hidden" data-lang="en">
+  <h2 class="h2_section_2 translation " data-lang="en">
     Interactive map
   </h2>
   <section class="section_carte">
@@ -221,7 +221,7 @@
             de Brie Happy. Un défi audacieux a été relevé, impliquant la création d'une lichette de Brie de Meaux.
           </p>
           <!-- anglais -->
-          <p class="translation hidden" data-lang="en">
+          <p class="translation " data-lang="en">
             In the shadow of Meaux Cathedral, something exceptional happened at the recent Brie Happy event. A daring
             challenge was taken up, involving the creation of a lichette of Brie de Meaux.
           </p>
@@ -234,7 +234,7 @@
             produits.
           </p>
           <!-- anglais -->
-          <p class="translation hidden" data-lang="en">
+          <p class="translation " data-lang="en">
             The main square is where a number of artisans have gathered to showcase and sell their wares.
           </p>
         </div>
@@ -247,7 +247,7 @@
             visite à la Maison du Brie de Meaux est une plongée dans l'univers de ce fromage emblématique.
           </p>
           <!-- anglais -->
-          <p class="translation hidden" data-lang="en">
+          <p class="translation " data-lang="en">
             Immerse yourself in the history of Brie de Meaux. By offering visitors an immersive experience combining
             tradition and modernity, it helps to preserve and share the passion that surrounds this cheese. A visit to
             the Maison du Brie de Meaux is a plunge into the world of this emblematic cheese.
@@ -261,7 +261,7 @@
             ici
           </p>
           <!-- anglais -->
-          <p class="translation hidden" data-lang="en">
+          <p class="translation " data-lang="en">
             The Musée Bossuet hosted the Best Brie de Meaux 2023 competition. Find out more about the competition by
             clicking here
           </p>
@@ -293,12 +293,12 @@
         Meaux existe-t-il
         ?</button>
       <!-- anglais -->
-      <button class="question translation hidden" data-lang="en" onclick="question_1()">What is Brie de
+      <button class="question translation " data-lang="en" onclick="question_1()">What is Brie de
         Meaux?</button>
-      <button class="question translation hidden" data-lang="en" onclick="question_2()">How is it made?</button>
-      <button class="question translation hidden" data-lang="en" onclick="question_3()">Where is Brie de Meaux
+      <button class="question translation " data-lang="en" onclick="question_2()">How is it made?</button>
+      <button class="question translation " data-lang="en" onclick="question_3()">Where is Brie de Meaux
         produced?</button>
-      <button class="question translation hidden" data-lang="en" onclick="question_4()">How long has Brie de Meaux
+      <button class="question translation " data-lang="en" onclick="question_4()">How long has Brie de Meaux
         been around?
       </button>
     </div>
