@@ -8,6 +8,7 @@
 </div>
 <?php include 'utile/footer.html'; ?>
 <script src="assets/js/carousel.js"></script>
+<script src="assets/js/translate.js"></script>
 </body>
 
 </html>

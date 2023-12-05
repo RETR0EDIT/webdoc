@@ -3,9 +3,20 @@
 <img src="" alt="" height="100%" />
 <section id="instalation"></section>
 <div class="container_title">
-  <h2>Instalation</h2>
-  <img src="assets/img/page_1/img_place_principal.png" alt="" class="instal_img1" id="fin"/>
-  <p class="instal_txt"></p>
+  <h2>Installation</h2>
+  <img src="assets/img/page_1/img_place_principal.png" alt="" class="instal_img1" id="fin" />
+  <section id="instalation">
+    <p class="texte_article translation" data-lang="fr">
+      Il est 9h du matin le samedi 13 octobre 2023 et tout est encore calme sur la place de la cathédrale lors de l'installation.
+      Tous les artisans mettent en place leur stand et s'apprêtent à accueillir la foule. Vers 11 h les visiteurs ont commencés à arriver.
+
+    </p>
+    <p class="texte_article translation" data-lang="en">
+      It's 9 a.m. on Saturday 13 October 2023 and it's still quiet in the cathedral square.
+      All the artisans were setting up their stands and getting ready to welcome the crowds. Around 11 a.m. the visitors started to arrive.
+
+    </p>
+  </section>
 </div>
 
 <section class="stands">
@@ -48,7 +59,7 @@
       <div>
         <div><a href="interview6.php"><img src="assets/img/place/andre.png" alt=""></a></div>
         <div>
-          <p>André Wachenheim  - Confrérie du Brie de Meaux </p>
+          <p>André Wachenheim - Confrérie du Brie de Meaux </p>
         </div>
       </div>
     </div>
@@ -60,6 +71,7 @@
 <?php include 'utile/footer.html'; ?>
 <script src="assets/js/nav.js"></script>
 <script src="assets/js/footer.js"></script>
+<script src="assets/js/translate.js"></script>
 </body>
 
 </html>
