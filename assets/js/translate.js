@@ -1,4 +1,6 @@
 const translations = document.querySelectorAll(".translation");
+const lang = "fr";
+const language = "fr";
 function en() {}
 
 function fr() {}
